@@ -1,21 +1,19 @@
-# Cifrado César
+# El encriptador César
 
 ## Índice
 
 - [Índice](#índice)
-- [Preámbulo](#preámbulo)
-- [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-- [Consideraciones generales](#consideraciones-generales)
-- [Requerimientos del proyecto](#requerimientos-del-proyecto)
-  - [Planificación (Agile-Scrum)](#planificación-agile-scrum)
-  - [UX (Diseño de experiencia de usuario)](#ux-diseño-de-experiencia-de-usuario)
-  - [Front-end](#front-end)
-- [Entrega](#entrega)
-- [Parte opcional o "Hacker edition"](#parte-opcional-o-hacker-edition)
-- [Recursos y temas relacionados](#recursos-y-temas-relacionados)
-- [Detalles de aprendizaje](#detalles-de-aprendizaje)
+- [¿De qué trata?](#¿De qué trata?)
+- [Imágen final del proyecto](#Imágen final del proyecto)
+- [Investigación UX:](#Investigación UX:)
+  - [Usuarios y los objetivos en relación con el producto](#Usuarios y los objetivos en relación con el producto)
+  - [¿Cómo soluciona los problemas de mis usuarios?](#Cómo soluciona los problemas de mis usuarios)
+  - [Mi primer prototipo](#Mi primer prototipo)
+  - [Feedback](#Feedback)
+  - [Prototipo final en Balsamiq](#Prototipo final en Balsamiq)
 
-## Preámbulo
+
+## ¿De qué trata?
 
 Cifrar significa codificar. El [cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar)
 es un tipo de **cifrado por sustitución**, es decir que una letra en el texto original es
@@ -37,7 +35,7 @@ se convierte en **D**.
   cifrado César sí puede formar parte de sistemas más complejos de codificación, como el
   cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
-## Objetivos de aprendizaje
+## Imágen final del proyecto
 
 El objetivo principal de aprendizaje es adquirir experiencia desarrollando aplicaciones web (_WebApp_) que
 interactúen con el usuario a través del navegador y la lógica, utilizando HTML5, CCS3 y JavaScript (ES6)
@@ -62,7 +60,7 @@ unitarias en Mocha. Recuerda que parte fundamental es organizar tu tiempo y prio
   | **1er Sprint**    | 30/05 al 07/06 |Planificación del sprint 1, prototipado de baja fidelidad (papel y lapiz) + iteración (herramienta [balsamiq](https://balsamiq.com/)), _code review_ (revisión de código), _peer feedback_ (retroalimentación por parejas)  _retrospectiva_ (identificar, documentar e internalizar las lecciones aprendidas en la 1ra semana), planificación del sprint 2  |
   | **2do Sprint**    | 07/06 al 14/06 | _Code review_ (revisión de código), _peer feedback_ (retroalimentación por parejas),  _retrospectiva_ (identificar, documentar e internalizar las lecciones aprendidas en la 2da semana), _demo_ (presentación) y _feedback_ final del proyecto |
 
-## Requerimientos del proyecto
+## Investigación UX:
 
 La temática es libre pero la interfaz debe permitir al usuario:
 
@@ -79,13 +77,13 @@ En este proyecto, tu producto debe utilizar este alfabeto simple (solamente may�
 
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
-### Planificación (Agile-Scrum)
+### Usuarios y los objetivos en relación con el producto
 
 Identifica y prioriza las tareas de tu proyecto; deberás escribirlas y mantenerlas
 actualizadas en un archivo de Google Docs mediante esta [plantilla](https://docs.google.com/document/d/1lgfQKRar21wmIhdNiiSDuL6odChMN16gAgeeHejLVcg).
 No dudes en solicitar ayuda a tus coaches.
 
-### UX (Diseño de experiencia de usuario)
+### ¿Cómo soluciona los problemas de mis usuarios?
 
 Antes de iniciar a codear, debes entender el problema que quieres solucionar y cómo tu
 aplicación lo soluciona.
@@ -107,9 +105,9 @@ Debe contener lo siguiente:
   - Agregar un resumen del feedback recibido indicando las mejoras a realizar.
   - Imagen del prototipo final en Balsamiq.
 
-### Front-end
+### Mi primer prototipo
 
-#### Visualmente (HTML5 y CSS3)
+### Feedback
 
 Deberás maquetar de forma exacta el prototipo final que hiciste en balsamiq utilizando
 HTML5 y CSS3. En este momento elegirás los colores, tipo de fuente, etc a usar.
@@ -130,7 +128,7 @@ En este archivo va el contenido que se mostrará al usuario (esqueleto HTML). En
 Este archivo debe contener las reglas de estilo. Queremos que escribas tus propias reglas,
 por eso NO está permitido el uso de frameworks de CSS3 (Bootstrap, materialize, etc).
 
-#### Funcionalmente (JavaScript ES6 - pruebas unitarias)
+### Prototipo final en Balsamiq
 
 - La lógica del proyecto debe estar implementada completamente en JavaScript (ES6).
 - En este proyecto NO está permitido usar librerías o frameworks, sólo
@@ -166,6 +164,22 @@ En este archivo tendrás que completar las pruebas unitarias de las funciones
 utilizando Mocha.
 Tus pruebas unitarias deben dar un 70% en _coverage_ (cobertura), _statements_ (sentencias),
 _functions_ (funciones) y _lines_ (líneas); y un mínimo del 50% de _branches_ (ramas).
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------
+
+
+
 
 ## Entrega
 
