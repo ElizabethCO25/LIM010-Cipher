@@ -13,8 +13,8 @@
   - [Prototipo final en Balsamiq](#Prototipo final en Balsamiq)(#id8)
 
 
-      <div id='id1' />
-      ## ¿De qué trata?
+<div id='id1' />
+## ¿De qué trata?
 
       Cifrar significa codificar. El [cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar)
       es un tipo de **cifrado por sustitución**, es decir que una letra en el texto original es
@@ -37,8 +37,8 @@
         cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
 
-        <div id='id2' />
-        ## Imágen final del proyecto
+<div id='id2' />
+## Imágen final del proyecto
 
         El objetivo principal de aprendizaje es adquirir experiencia desarrollando aplicaciones web (_WebApp_) que
         interactúen con el usuario a través del navegador y la lógica, utilizando HTML5, CCS3 y JavaScript (ES6)
@@ -53,20 +53,20 @@
         unitarias en Mocha. Recuerda que parte fundamental es organizar tu tiempo y priorizar tus tareas.
 
 
-        <div id='id3' />
-        ## Investigación UX:
+<div id='id3' />
+## Investigación UX:
 
 
-        <div id='id4'>
-        ### Usuarios y los objetivos en relación con el producto
+<div id='id4'>
+### Usuarios y los objetivos en relación con el producto
 
         Identifica y prioriza las tareas de tu proyecto; deberás escribirlas y mantenerlas
         actualizadas en un archivo de Google Docs mediante esta [plantilla](https://docs.google.com/document/d/1lgfQKRar21wmIhdNiiSDuL6odChMN16gAgeeHejLVcg).
         No dudes en solicitar ayuda a tus coaches.
 
 
-        <div id='id5'>
-        ### ¿Cómo soluciona los problemas de mis usuarios?
+<div id='id5'>
+### ¿Cómo soluciona los problemas de mis usuarios?
 
         Antes de iniciar a codear, debes entender el problema que quieres solucionar y cómo tu
         aplicación lo soluciona.
@@ -89,11 +89,11 @@
           - Imagen del prototipo final en Balsamiq.
 
 
-          <div id='id6' />
-          ### Mi primer prototipo
+<div id='id6' />
+### Mi primer prototipo
 
-          <div id='id7' />
-          ### Feedback
+<div id='id7' />
+### Feedback
 
           Deberás maquetar de forma exacta el prototipo final que hiciste en balsamiq utilizando
           HTML5 y CSS3. En este momento elegirás los colores, tipo de fuente, etc a usar.
@@ -115,8 +115,8 @@
           por eso NO está permitido el uso de frameworks de CSS3 (Bootstrap, materialize, etc).
 
 
-          <div id='id8' />
-          ### Prototipo final en Balsamiq
+<div id='id8' />
+### Prototipo final en Balsamiq
 
           - La lógica del proyecto debe estar implementada completamente en JavaScript (ES6).
           - En este proyecto NO está permitido usar librerías o frameworks, sólo
