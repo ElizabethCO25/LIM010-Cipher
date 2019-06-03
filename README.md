@@ -5,10 +5,8 @@
 - [Índice](#índice)
 - [¿De qué trata?](#id1)
     <div id='id1' />
-    ## ¿De qué trata?
 - [Imágen final del proyecto](#id2)
     <div id='id2' />
-    ## Imágen final del proyecto
 - [Investigación UX:](#Investigación UX:)
   - [Usuarios y los objetivos en relación con el producto](#Usuarios y los objetivos en relación con el producto)
   - [¿Cómo soluciona los problemas de mis usuarios?](#Cómo soluciona los problemas de mis usuarios)
