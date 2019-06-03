@@ -11,14 +11,15 @@
   - [Mi primer prototipo](#id6)
   - [Feedback](#Feedback)(#id7)
   - [Prototipo final en Balsamiq](#Prototipo final en Balsamiq)(#id8)
-<div id='id1' />
-##¿De qué trata?
+
+##¿De qué trata? <div id='id1' />
+
 Mi proyecto [El encriptador César]es un encriptador que trabaja con un algoritmo de **cifrado por sustitución**, es decir que una letra en el texto original es
 reemplazada por otra letra que se encuentra un número de posiciones más adelante en el alfabeto.
 
 El encriptador César sirve para codificar información sensible de cuentas y tarjetas bancarias, además de información privada como usuarios y contraseñas de redes sociales; de tal manera que el usuario pueda guardar ésta inforamción en un simple dcumento de texto en su dispositivo móvil sin temor a que ésta información pueda ser tomada por alguien más.
 
-El usuario puede encriptar y desencriptar la información cuando y en el momento que la requiera. 
+El usuario puede encriptar y desencriptar la información cuando y en el momento que la requiera.
 
 Veamos los siguientes ejemplos:
 - Si ciframos la letra A usando un desplazamiento (_offset_) de 3 posiciones, entonces la **A**
@@ -36,8 +37,8 @@ se convierte en **D**.
   cifrado César sí puede formar parte de sistemas más complejos de codificación, como el
   cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
-<div id='id2' />
-## Imágen final del proyecto
+
+## Imágen final del proyecto<div id='id2'/>
 El objetivo principal de aprendizaje es adquirir experiencia desarrollando aplicaciones web (_WebApp_) que
 interactúen con el usuario a través del navegador y la lógica, utilizando HTML5, CCS3 y JavaScript (ES6)
 como herramientas.
@@ -48,7 +49,9 @@ mensaje.
 Para completar el proyecto tendrás que familiarizarte con conceptos como las necesidades del usuario y propuesta
 de una solución; etiquetas semánticas y formularios en HTML5; modelo de cajas y selectores en CSS3; métodos de
 selección y eventos del DOM; manipulación de strings, control de flujo y funciones en JS; así como pruebas
-unitarias en Mocha. Recuerda que parte fundamental es organizar tu tiempo y priorizar tus tareas.     
+unitarias en Mocha. Recuerda que parte fundamental es organizar tu tiempo y priorizar tus tareas.  
+
+
 <div id='id3' />
 ## Investigación UX:
 
