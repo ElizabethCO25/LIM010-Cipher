@@ -6,109 +6,15 @@
 - [¿De qué trata?](#id1)
 - [Imágen final del proyecto](#id2)
 - [Investigación UX:](#id3)
-    <div id='id3' />
-    ## Investigación UX:
-
-  - [Usuarios y los objetivos en relación con el producto](#4)
-    <div id='id4'>
-    ### Usuarios y los objetivos en relación con el producto
-
-    Identifica y prioriza las tareas de tu proyecto; deberás escribirlas y mantenerlas
-    actualizadas en un archivo de Google Docs mediante esta [plantilla](https://docs.google.com/document/d/1lgfQKRar21wmIhdNiiSDuL6odChMN16gAgeeHejLVcg).
-    No dudes en solicitar ayuda a tus coaches.
-
-  - [¿Cómo soluciona los problemas de mis usuarios?](#5)
-    <div id='id5'>
-    ### ¿Cómo soluciona los problemas de mis usuarios?
-
-    Antes de iniciar a codear, debes entender el problema que quieres solucionar y cómo tu
-    aplicación lo soluciona.
-    - Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
-    - Luego valida esta solución con una compañera (pedir feedback).
-    - Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un nuevo prototipo
-    usando [Balsamiq](https://balsamiq.com/)). Estos puntos los presentarás en el `README.md`.
-
-    **`README.md`**:
-
-    Debe contener lo siguiente:
-    - Un título con el nombre de tu proyecto.
-    - Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-    - La imagen final de tu proyecto.
-    - Investigación UX:
-      - Explicar quiénes son los usuarios y los objetivos en relación con el producto.
-      - Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios.
-      - Luego colocarás la foto de tu primer prototipo en papel.
-      - Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-      - Imagen del prototipo final en Balsamiq.
-
+  - [Usuarios y los objetivos en relación con el producto](#id4)
+  - [¿Cómo soluciona los problemas de mis usuarios?](#id5)
   - [Mi primer prototipo](#id6)
-      <div id='id6' />
-      ### Mi primer prototipo
-
-  - [Feedback](#Feedback)
-  ### Feedback
-
-  Deberás maquetar de forma exacta el prototipo final que hiciste en balsamiq utilizando
-  HTML5 y CSS3. En este momento elegirás los colores, tipo de fuente, etc a usar.
-
-  A continuación describimos los archivos que utilizarás:
-
-  **`src/index.html`**:
-
-  En este archivo va el contenido que se mostrará al usuario (esqueleto HTML). Encontrarás
-  3 etiquetas iniciales:
-
-  - `<header>`: encabezado de tu proyecto.
-  - `<main>`: contenido principal de tu proyecto.
-  - `<footer>`: pie de página de tu proyecto.
-
-  **`src/style.css`**:
-
-  Este archivo debe contener las reglas de estilo. Queremos que escribas tus propias reglas,
-  por eso NO está permitido el uso de frameworks de CSS3 (Bootstrap, materialize, etc).
-
-
+  - [Feedback](#Feedback)(#id7)
   - [Prototipo final en Balsamiq](#Prototipo final en Balsamiq)(#id8)
-      <div id='id8' />
-      ### Prototipo final en Balsamiq
-
-      - La lógica del proyecto debe estar implementada completamente en JavaScript (ES6).
-      - En este proyecto NO está permitido usar librerías o frameworks, sólo
-      [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
-      - No se debe utilizar la _pseudo-variable_ `this`.
-
-      Vamos a tener 2 archivos JavaScript separando responsabilidades, a continuación indicamos qué
-      harás en cada archivo:
-
-      **`src/cipher.js`**:
-
-      Acá escribirás las 2 funciones necesarias para el usuario pueda cifrar o descifrar.
-      Para esto debes implementar el **objeto `cipher`**, el cual ya se encuentra _exportado_ en el
-      objeto global (`window`). Este objeto (`cipher`) contiene dos métodos:
-
-        - **`cipher.encode(offset, string)`**: `offset` es el número de posiciones que queremos
-        mover a la derecha en el alfabeto y `string` el mensaje (texto) que queremos cifrar.
-        - **`cipher.decode(offset, string)`**: `offset` es el número de posiciones que queremos
-        mover a la izquierda en el alfabeto y `string` el mensaje (texto) que queremos descifrar.
-
-      **`src/index.js`**:
-
-      Acá escribirás todo el código que tenga que ver con la interacción del DOM (seleccionar,
-      actualizar y manipular elementos del DOM y eventos).
-      Es decir, en este archivo deberás invocar a `cipher.encode(offset, string)` y
-      `cipher.decode(offset, string)` según sea necesario para actualizar el resultado en la
-      pantalla(UI).
-
-      **`test/cipher.spec.js`**:
-
-      En este archivo tendrás que completar las pruebas unitarias de las funciones
-      `cipher.encode(offset, string)` y `cipher.decode(offset, string)` implementadas en `cipher.js`
-      utilizando Mocha.
-      Tus pruebas unitarias deben dar un 70% en _coverage_ (cobertura), _statements_ (sentencias),
-      _functions_ (funciones) y _lines_ (líneas); y un mínimo del 50% de _branches_ (ramas).
 
 
-      ## ¿De qué trata?<div id='id1' />
+      <div id='id1' />
+      ## ¿De qué trata?
 
       Cifrar significa codificar. El [cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar)
       es un tipo de **cifrado por sustitución**, es decir que una letra en el texto original es
@@ -130,7 +36,9 @@
         cifrado César sí puede formar parte de sistemas más complejos de codificación, como el
         cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
-        ## Imágen final del proyecto <div id='id2' />
+
+        <div id='id2' />
+        ## Imágen final del proyecto
 
         El objetivo principal de aprendizaje es adquirir experiencia desarrollando aplicaciones web (_WebApp_) que
         interactúen con el usuario a través del navegador y la lógica, utilizando HTML5, CCS3 y JavaScript (ES6)
@@ -143,6 +51,107 @@
         de una solución; etiquetas semánticas y formularios en HTML5; modelo de cajas y selectores en CSS3; métodos de
         selección y eventos del DOM; manipulación de strings, control de flujo y funciones en JS; así como pruebas
         unitarias en Mocha. Recuerda que parte fundamental es organizar tu tiempo y priorizar tus tareas.
+
+
+        <div id='id3' />
+        ## Investigación UX:
+
+
+        <div id='id4'>
+        ### Usuarios y los objetivos en relación con el producto
+
+        Identifica y prioriza las tareas de tu proyecto; deberás escribirlas y mantenerlas
+        actualizadas en un archivo de Google Docs mediante esta [plantilla](https://docs.google.com/document/d/1lgfQKRar21wmIhdNiiSDuL6odChMN16gAgeeHejLVcg).
+        No dudes en solicitar ayuda a tus coaches.
+
+
+        <div id='id5'>
+        ### ¿Cómo soluciona los problemas de mis usuarios?
+
+        Antes de iniciar a codear, debes entender el problema que quieres solucionar y cómo tu
+        aplicación lo soluciona.
+        - Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
+        - Luego valida esta solución con una compañera (pedir feedback).
+        - Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un nuevo prototipo
+        usando [Balsamiq](https://balsamiq.com/)). Estos puntos los presentarás en el `README.md`.
+
+        **`README.md`**:
+
+        Debe contener lo siguiente:
+        - Un título con el nombre de tu proyecto.
+        - Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+        - La imagen final de tu proyecto.
+        - Investigación UX:
+          - Explicar quiénes son los usuarios y los objetivos en relación con el producto.
+          - Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios.
+          - Luego colocarás la foto de tu primer prototipo en papel.
+          - Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+          - Imagen del prototipo final en Balsamiq.
+
+
+          <div id='id6' />
+          ### Mi primer prototipo
+
+          <div id='id7' />
+          ### Feedback
+
+          Deberás maquetar de forma exacta el prototipo final que hiciste en balsamiq utilizando
+          HTML5 y CSS3. En este momento elegirás los colores, tipo de fuente, etc a usar.
+
+          A continuación describimos los archivos que utilizarás:
+
+          **`src/index.html`**:
+
+          En este archivo va el contenido que se mostrará al usuario (esqueleto HTML). Encontrarás
+          3 etiquetas iniciales:
+
+          - `<header>`: encabezado de tu proyecto.
+          - `<main>`: contenido principal de tu proyecto.
+          - `<footer>`: pie de página de tu proyecto.
+
+          **`src/style.css`**:
+
+          Este archivo debe contener las reglas de estilo. Queremos que escribas tus propias reglas,
+          por eso NO está permitido el uso de frameworks de CSS3 (Bootstrap, materialize, etc).
+
+
+          <div id='id8' />
+          ### Prototipo final en Balsamiq
+
+          - La lógica del proyecto debe estar implementada completamente en JavaScript (ES6).
+          - En este proyecto NO está permitido usar librerías o frameworks, sólo
+          [vanilla JavaScript](https://medium.com/laboratoria-how-to/vanillajs-vs-jquery-31e623bbd46e).
+          - No se debe utilizar la _pseudo-variable_ `this`.
+
+          Vamos a tener 2 archivos JavaScript separando responsabilidades, a continuación indicamos qué
+          harás en cada archivo:
+
+          **`src/cipher.js`**:
+
+          Acá escribirás las 2 funciones necesarias para el usuario pueda cifrar o descifrar.
+          Para esto debes implementar el **objeto `cipher`**, el cual ya se encuentra _exportado_ en el
+          objeto global (`window`). Este objeto (`cipher`) contiene dos métodos:
+
+            - **`cipher.encode(offset, string)`**: `offset` es el número de posiciones que queremos
+            mover a la derecha en el alfabeto y `string` el mensaje (texto) que queremos cifrar.
+            - **`cipher.decode(offset, string)`**: `offset` es el número de posiciones que queremos
+            mover a la izquierda en el alfabeto y `string` el mensaje (texto) que queremos descifrar.
+
+          **`src/index.js`**:
+
+          Acá escribirás todo el código que tenga que ver con la interacción del DOM (seleccionar,
+          actualizar y manipular elementos del DOM y eventos).
+          Es decir, en este archivo deberás invocar a `cipher.encode(offset, string)` y
+          `cipher.decode(offset, string)` según sea necesario para actualizar el resultado en la
+          pantalla(UI).
+
+          **`test/cipher.spec.js`**:
+
+          En este archivo tendrás que completar las pruebas unitarias de las funciones
+          `cipher.encode(offset, string)` y `cipher.decode(offset, string)` implementadas en `cipher.js`
+          utilizando Mocha.
+          Tus pruebas unitarias deben dar un 70% en _coverage_ (cobertura), _statements_ (sentencias),
+          _functions_ (funciones) y _lines_ (líneas); y un mínimo del 50% de _branches_ (ramas).
 
 
 
