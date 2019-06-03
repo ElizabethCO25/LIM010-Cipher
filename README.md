@@ -4,23 +4,7 @@
 
 - [Índice](#índice)
 - [¿De qué trata?](#id1)
-    <div id='id1' />
 - [Imágen final del proyecto](#id2)
-    <div id='id2' />
-    ## Imágen final del proyecto
-
-    El objetivo principal de aprendizaje es adquirir experiencia desarrollando aplicaciones web (_WebApp_) que
-    interactúen con el usuario a través del navegador y la lógica, utilizando HTML5, CCS3 y JavaScript (ES6)
-    como herramientas.
-
-    En este proyecto tendrás que construir una aplicación web que le permita a un usuario cifrar y descifrar un
-    mensaje.
-
-    Para completar el proyecto tendrás que familiarizarte con conceptos como las necesidades del usuario y propuesta
-    de una solución; etiquetas semánticas y formularios en HTML5; modelo de cajas y selectores en CSS3; métodos de
-    selección y eventos del DOM; manipulación de strings, control de flujo y funciones en JS; así como pruebas
-    unitarias en Mocha. Recuerda que parte fundamental es organizar tu tiempo y priorizar tus tareas.
-
 - [Investigación UX:](#id3)
     <div id='id3' />
     ## Investigación UX:
@@ -124,7 +108,7 @@
       _functions_ (funciones) y _lines_ (líneas); y un mínimo del 50% de _branches_ (ramas).
 
 
-      ## ¿De qué trata?
+      ## ¿De qué trata?<div id='id1' />
 
       Cifrar significa codificar. El [cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar)
       es un tipo de **cifrado por sustitución**, es decir que una letra en el texto original es
@@ -146,6 +130,19 @@
         cifrado César sí puede formar parte de sistemas más complejos de codificación, como el
         cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
+        ## Imágen final del proyecto <div id='id2' />
+
+        El objetivo principal de aprendizaje es adquirir experiencia desarrollando aplicaciones web (_WebApp_) que
+        interactúen con el usuario a través del navegador y la lógica, utilizando HTML5, CCS3 y JavaScript (ES6)
+        como herramientas.
+
+        En este proyecto tendrás que construir una aplicación web que le permita a un usuario cifrar y descifrar un
+        mensaje.
+
+        Para completar el proyecto tendrás que familiarizarte con conceptos como las necesidades del usuario y propuesta
+        de una solución; etiquetas semánticas y formularios en HTML5; modelo de cajas y selectores en CSS3; métodos de
+        selección y eventos del DOM; manipulación de strings, control de flujo y funciones en JS; así como pruebas
+        unitarias en Mocha. Recuerda que parte fundamental es organizar tu tiempo y priorizar tus tareas.
 
 
 
