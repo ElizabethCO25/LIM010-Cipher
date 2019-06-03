@@ -38,7 +38,9 @@ se convierte en **D**.
   cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
 
-## Imágen final del proyecto<div id='id2'/>
+<div id='id2'/>
+## Imágen final del proyecto
+
 El objetivo principal de aprendizaje es adquirir experiencia desarrollando aplicaciones web (_WebApp_) que
 interactúen con el usuario a través del navegador y la lógica, utilizando HTML5, CCS3 y JavaScript (ES6)
 como herramientas.
