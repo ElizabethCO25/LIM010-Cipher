@@ -5,28 +5,6 @@
 - [Índice](#índice)
 - [¿De qué trata?](#id1)
     <div id='id1' />
-    ## ¿De qué trata?
-
-    Cifrar significa codificar. El [cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar)
-    es un tipo de **cifrado por sustitución**, es decir que una letra en el texto original es
-    reemplazada por otra letra que se encuentra un número de posiciones más adelante en el alfabeto.
-
-    Veamos los siguientes ejemplos:
-    - Si ciframos la letra A usando un desplazamiento (_offset_) de 3 posiciones, entonces la **A**
-    se convierte en **D**.
-    - Ahora, si ciframos la palabra **CASA** con el mismo desplazamiento de 3, ésta se convierte en
-    **FDVD**.
-    - Y para el alfabeto completo, con el mismo desplazamiento de 3 posiciones, sería:
-      - Sin cifrado: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-      - Ya cifrado : D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-
-      ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
-
-    > En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad
-      y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el
-      cifrado César sí puede formar parte de sistemas más complejos de codificación, como el
-      cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
-
 - [Imágen final del proyecto](#id2)
     <div id='id2' />
     ## Imágen final del proyecto
@@ -145,6 +123,28 @@
       Tus pruebas unitarias deben dar un 70% en _coverage_ (cobertura), _statements_ (sentencias),
       _functions_ (funciones) y _lines_ (líneas); y un mínimo del 50% de _branches_ (ramas).
 
+
+      ## ¿De qué trata?
+
+      Cifrar significa codificar. El [cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar)
+      es un tipo de **cifrado por sustitución**, es decir que una letra en el texto original es
+      reemplazada por otra letra que se encuentra un número de posiciones más adelante en el alfabeto.
+
+      Veamos los siguientes ejemplos:
+      - Si ciframos la letra A usando un desplazamiento (_offset_) de 3 posiciones, entonces la **A**
+      se convierte en **D**.
+      - Ahora, si ciframos la palabra **CASA** con el mismo desplazamiento de 3, ésta se convierte en
+      **FDVD**.
+      - Y para el alfabeto completo, con el mismo desplazamiento de 3 posiciones, sería:
+        - Sin cifrado: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+        - Ya cifrado : D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+
+        ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+
+      > En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad
+        y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el
+        cifrado César sí puede formar parte de sistemas más complejos de codificación, como el
+        cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
 
 
