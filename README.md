@@ -9,10 +9,11 @@
   - [Usuarios y los objetivos en relación con el producto](#id4)
   - [¿Cómo soluciona los problemas de mis usuarios?](#id5)
   - [Mi primer prototipo](#id6)
-  - [Feedback](#Feedback)(#id7)
-  - [Prototipo final en Balsamiq](#Prototipo final en Balsamiq)(#id8)
+  - [Feedback](#Feedback)
+  - [Prototipo final en Balsamiq](#id8)
 
-##¿De qué trata? <div id='id1' />
+
+## ¿De qué trata?<div id='id1' />
 
 Mi proyecto [El encriptador César]es un encriptador que trabaja con un algoritmo de **cifrado por sustitución**, es decir que una letra en el texto original es
 reemplazada por otra letra que se encuentra un número de posiciones más adelante en el alfabeto.
@@ -38,8 +39,9 @@ se convierte en **D**.
   cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
 
 
-<div id='id2'/>
-## Imágen final del proyecto
+
+
+## Imágen final del proyecto<div id='id2'/>
 
 El objetivo principal de aprendizaje es adquirir experiencia desarrollando aplicaciones web (_WebApp_) que
 interactúen con el usuario a través del navegador y la lógica, utilizando HTML5, CCS3 y JavaScript (ES6)
