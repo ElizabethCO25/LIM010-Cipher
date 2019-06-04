@@ -15,8 +15,8 @@
     - [Imágenes de mi 2º Prototipo](#id9)
 
 
-<div id='id1'>
-## ¿De qué trata?
+
+## ¿De qué trata?<div id='id1'>
 
 Mi proyecto [El encriptador César] es un encriptador que trabaja con un algoritmo de **cifrado por sustitución <César Cipher>**. Lo cual hace que una letra en el texto original sea reemplazada por otra letra que se encuentra un número de posiciones más adelante en el alfabeto.
 
@@ -26,8 +26,8 @@ El *encriptador César* sirve para codificar información sensible de cuentas y 
 
 
 
-<div id='id2'/>
-## Imagen final del proyecto:
+
+## Imagen final del proyecto:<div id='id2'/>
 
 
 
@@ -39,11 +39,11 @@ El *encriptador César* sirve para codificar información sensible de cuentas y 
 
 
 
-<div id='id3'/>
-## Investigación UX:
 
-<div id='id4'/>
-### Usuarios y los objetivos en relación con el producto
+## Investigación UX:<div id='id3'/>
+
+
+### Usuarios y los objetivos en relación con el producto<div id='id4'/>
 *El encriptador César* está dirigido principalmente a usuarios de productos financieros y redes sociales. En su mayoría adultos de entre 18 y 60 años, que suelen o requieren almacenar datos sensibles y privados de sus cuentas bantas bancarias y redes sociales sin temor a que éstas sean obtenidas por un tercero.
 
 Los objetivos del proyecto son:
@@ -54,15 +54,15 @@ Los objetivos del proyecto son:
 
 
 
-<div id='id5'/>
-### ¿Cómo soluciona los problemas de mis usuarios?
+
+### ¿Cómo soluciona los problemas de mis usuarios?<div id='id5'/>
 Para comenzar debo detallar que el problema de los 3 usuarios entrevistados fueron muy similares y se resumen en que: Ninguno logra memorizar sus cuentas , contraseñas, números de tarjetas bancarias o sus nombres de usuarios y contraseñas de todas las redes sociales que usan, por lo tanto necesitan una soluci{on que les permita guardar dicha inforamción de tal manera que nadie pueda acceder a ella además de él o ella misma. Además de sentir de sentirse segur@ de hacerlo sin temor a ser victima de phishing.
 
 En tal sentido, *El encriptador César* soluciona dichos problemas ofreciendoles a los usuarios la posibilidad de tener un encriptador de texto que les permita copiar su texto real, encriptarlo, copiarlo una vez así almacenarlo en cualquier documento local u online sin ninguna temor a que alguien pueda acceder a dicha inforamción, ni siquiera algún virus informático.
 
 
-<div id='id6' />
-### Imágenes del prototipado de Baja fidelidad (Lapiz y Papel)
+
+### Imágenes del prototipado de Baja fidelidad (Lapiz y Papel)<div id='id6' />
 
 #### Imagen 1:
 ![foto 1](https://user-images.githubusercontent.com/51203238/58844067-2137ac80-863b-11e9-8c2b-b71c1e2187c1.jpeg)
@@ -80,11 +80,11 @@ En mi primer feedback mis coaches me recomendaron , de preferencia, usar sólo b
 Respecto a la funcionalidad y diseño, tuve su aceptación.
 
 
-<div id='id7' />
-### Prototipo final en Balsamiq
 
-<div id='id8'>
-### **Imágenes de mi 1º Prototipo**
+### Prototipo final en Balsamiq<div id='id7' />
+
+
+### **Imágenes de mi 1º Prototipo**<div id='id8' />
 
 #### Pantalla 1:
 ![Pantalla 1](https://user-images.githubusercontent.com/51203238/58842676-f8acb400-8634-11e9-9469-e732228068ca.png)
@@ -105,8 +105,8 @@ Respecto a la funcionalidad y diseño, tuve su aceptación.
 ##### Pantalla 3:
 ![Pantalla 3](https://user-images.githubusercontent.com/51203238/58842792-60fb9580-8635-11e9-9658-3ce0ee53df86.png)
 
-<div id='id9' />
-### **Imágenes de mi 2º Prototipo:**
+
+### **Imágenes de mi 2º Prototipo:**<div id='id9' />
 
 #### Pantalla 1:
 ![Pantalla 1](https://user-images.githubusercontent.com/51203238/58842676-f8acb400-8634-11e9-9469-e732228068ca.png)

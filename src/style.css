@@ -1,1 +1,56 @@
 /* Acá van tus reglas de estilo */
+body{
+  background-image:url("../imagenes/ff2.png");
+  background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+.titulo{
+      text-align: center;
+      font-weight : bold;
+      font-size: 60px;
+      color: white;
+      overflow: auto;
+
+}
+
+.input1{
+    width: 400px;
+    border: 50px;
+    overflow: auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 445px;
+    border-radius: 15px;
+}
+
+.t1{
+  text-align: center;
+  font-weight : bold;
+  font-size: 30px;
+  color: white;
+  position: center;
+  margin-top: 300px;
+}
+
+.boton{
+  background:#191970;
+  color: #fff;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: 570px;
+  border-radius: 15px;
+  padding-top: 20;
+  padding-bottom: 30;
+}
+.footer{
+  font-size: 20px;
+  width: 95%;
+  height: 40px;
+  bottom: 0;
+  position: fixed;
+  text-align: right;
+  color:#F0FFFF;
+}
