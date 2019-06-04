@@ -15,45 +15,54 @@
 
 ## ¿De qué trata?<div id='id1' />
 
-Mi proyecto [El encriptador César]es un encriptador que trabaja con un algoritmo de **cifrado por sustitución**, es decir que una letra en el texto original es
-reemplazada por otra letra que se encuentra un número de posiciones más adelante en el alfabeto.
+Mi proyecto [El encriptador César] es un encriptador que trabaja con un algoritmo de **cifrado por sustitución <César Cipher>**. Lo cual hace que una letra en el texto original sea reemplazada por otra letra que se encuentra un número de posiciones más adelante en el alfabeto.
 
-El encriptador César sirve para codificar información sensible de cuentas y tarjetas bancarias, además de información privada como usuarios y contraseñas de redes sociales; de tal manera que el usuario pueda guardar ésta inforamción en un simple dcumento de texto en su dispositivo móvil sin temor a que ésta información pueda ser tomada por alguien más.
+El *encriptador César* sirve para codificar información sensible de cuentas y tarjetas bancarias, además de información privada como usuarios y contraseñas de redes sociales; de tal manera que el usuario pueda guardar ésta inforamción en un simple dcumento de texto en su dispositivo móvil sin temor a que ésta información pueda ser tomada por alguien más.
 
-El usuario puede encriptar y desencriptar la información cuando y en el momento que la requiera.
+**El usuario puede encriptar y desencriptar la información cuando y en el momento que la requiera.**
 
-Veamos los siguientes ejemplos:
-- Si ciframos la letra A usando un desplazamiento (_offset_) de 3 posiciones, entonces la **A**
-se convierte en **D**.
-- Ahora, si ciframos la palabra **CASA** con el mismo desplazamiento de 3, ésta se convierte en
-**FDVD**.
-- Y para el alfabeto completo, con el mismo desplazamiento de 3 posiciones, sería:
-  - Sin cifrado: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-  - Ya cifrado : D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+#### Imágenes del prototipado de Baja fidelidad (Lapiz y Papel)
 
-  ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
-
-> En la actualidad, todos los cifrados de sustitución simple se descifran con mucha facilidad
-  y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el
-  cifrado César sí puede formar parte de sistemas más complejos de codificación, como el
-  cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
+> Luego del feedback de mi prototipo en lápiz y papel obtuve la aprobación del diseño. Mis compañeras (posibles usuarias) me hicieron saber que era entendible, por ello decidí mantenerlo.
 
 
+## Imágen final del proyecto - Prototipado en Balsamiq<div id='id2'/>
+#### Imagenes de mi 1º Prototipo
+######## Pantalla 1:
+![Pantalla 1](https://user-images.githubusercontent.com/51203238/58842676-f8acb400-8634-11e9-9469-e732228068ca.png)
+
+######## Pantalla 2:
+![Pantalla 2](https://user-images.githubusercontent.com/51203238/58842728-2abe1600-8635-11e9-9849-6818b718adf2.png)
+
+######## Pantalla 2.1:
+![Pantalla 2 1](https://user-images.githubusercontent.com/51203238/58842752-42959a00-8635-11e9-973e-4c8dadff8071.png)
+
+######## Pantalla 2.2:
+![Pantalla 2 2](https://user-images.githubusercontent.com/51203238/58842773-53461000-8635-11e9-8016-98bd74d1bf5c.png)
+
+######## Pantalla 3:
+![Pantalla 3](https://user-images.githubusercontent.com/51203238/58842792-60fb9580-8635-11e9-9658-3ce0ee53df86.png)
+
+> Las anteriores imagenes son las de mi primer prototipo en Balsamiq. Pero cabe mencionar que, luego de un feedback con mis coaches, me recomendaron , de preferencia usar sólo botones y no listas desplegables o combo box; ello para agilizar el desarrollo de mi proyecto y no distraer mi aprendizaje.
+Entonces mi Prototipo Final fue el siguiente:
+
+#### Imagenes de mi 2º Prototipo
+######## Pantalla 1:
+![Pantalla 1](https://user-images.githubusercontent.com/51203238/58842676-f8acb400-8634-11e9-9469-e732228068ca.png)
+
+######## Pantalla 2:
+![Pantalla 2 (Alternate 479x)](https://user-images.githubusercontent.com/51203238/58842956-1595b700-8636-11e9-983c-1c9d2b197407.png)
 
 
-## Imágen final del proyecto<div id='id2'/>
+######## Pantalla 2.1:
+![Pantalla 2 1 (Alternate 912m)](https://user-images.githubusercontent.com/51203238/58843013-5392db00-8636-11e9-9b6c-233a53226b30.png)
 
-El objetivo principal de aprendizaje es adquirir experiencia desarrollando aplicaciones web (_WebApp_) que
-interactúen con el usuario a través del navegador y la lógica, utilizando HTML5, CCS3 y JavaScript (ES6)
-como herramientas.
 
-En este proyecto tendrás que construir una aplicación web que le permita a un usuario cifrar y descifrar un
-mensaje.
+######## Pantalla 2.2:
+![Pantalla 2 2 (Alternate 514{)](https://user-images.githubusercontent.com/51203238/58843021-5ee60680-8636-11e9-88ee-4337d66d33d0.png)
 
-Para completar el proyecto tendrás que familiarizarte con conceptos como las necesidades del usuario y propuesta
-de una solución; etiquetas semánticas y formularios en HTML5; modelo de cajas y selectores en CSS3; métodos de
-selección y eventos del DOM; manipulación de strings, control de flujo y funciones en JS; así como pruebas
-unitarias en Mocha. Recuerda que parte fundamental es organizar tu tiempo y priorizar tus tareas.  
+######## Pantalla 3:
+![Pantalla 3 (Alternate 206x)](https://user-images.githubusercontent.com/51203238/58843029-67d6d800-8636-11e9-85da-5fda06b48115.png)
 
 
 <div id='id3' />
