@@ -13,7 +13,9 @@
   - [Prototipo final en Balsamiq](#id8)
 
 
-## ¿De qué trata?<div id='id1' />
+
+<div id='id1'>
+## ¿De qué trata?
 
 Mi proyecto [El encriptador César] es un encriptador que trabaja con un algoritmo de **cifrado por sustitución <César Cipher>**. Lo cual hace que una letra en el texto original sea reemplazada por otra letra que se encuentra un número de posiciones más adelante en el alfabeto.
 
@@ -23,32 +25,50 @@ El *encriptador César* sirve para codificar información sensible de cuentas y 
 
 #### Imágenes del prototipado de Baja fidelidad (Lapiz y Papel)
 
+#### Imagen 1:
+![foto 1](https://user-images.githubusercontent.com/51203238/58844067-2137ac80-863b-11e9-8c2b-b71c1e2187c1.jpeg)
+
+#### Imagen 2:
+![foto 2](https://user-images.githubusercontent.com/51203238/58844094-42000200-863b-11e9-8b07-c38ae773102f.jpeg)
+
 **> Luego del feedback de mi prototipo en lápiz y papel obtuve la aprobación del diseño. Mis compañeras (posibles usuarias) me hicieron saber que era entendible, por ello decidí mantenerlo.**
 
 
-## Imagen final del proyecto - Prototipado en Balsamiq<div id='id2'/>
+
+<div id='id2'>
+## Imagen final del proyecto - Prototipado en Balsamiq
+
 ### **Imágenes de mi 1º Prototipo**
+
 #### Pantalla 1:
 ![Pantalla 1](https://user-images.githubusercontent.com/51203238/58842676-f8acb400-8634-11e9-9469-e732228068ca.png)
+
 
 #### Pantalla 2:
 ![Pantalla 2](https://user-images.githubusercontent.com/51203238/58842728-2abe1600-8635-11e9-9849-6818b718adf2.png)
 
+
 #### Pantalla 2.1:
 ![Pantalla 2 1](https://user-images.githubusercontent.com/51203238/58842752-42959a00-8635-11e9-973e-4c8dadff8071.png)
+
 
 #### Pantalla 2.2:
 ![Pantalla 2 2](https://user-images.githubusercontent.com/51203238/58842773-53461000-8635-11e9-8016-98bd74d1bf5c.png)
 
+
 ##### Pantalla 3:
 ![Pantalla 3](https://user-images.githubusercontent.com/51203238/58842792-60fb9580-8635-11e9-9658-3ce0ee53df86.png)
+
 
 **> Las anteriores imágenes son las de mi primer prototipo en Balsamiq. Pero cabe mencionar que, luego de un feedback con mis coaches, me recomendaron , de preferencia usar sólo botones y no listas desplegables o combo box; ello para agilizar el desarrollo de mi proyecto y no distraer mi aprendizaje.
 Entonces mi Prototipo Final fue el siguiente:**
 
+
 ### **Imágenes de mi 2º Prototipo:**
+
 #### Pantalla 1:
 ![Pantalla 1](https://user-images.githubusercontent.com/51203238/58842676-f8acb400-8634-11e9-9469-e732228068ca.png)
+
 
 ##### Pantalla 2:
 ![Pantalla 2 (Alternate 479x)](https://user-images.githubusercontent.com/51203238/58842956-1595b700-8636-11e9-983c-1c9d2b197407.png)
@@ -61,20 +81,27 @@ Entonces mi Prototipo Final fue el siguiente:**
 #### Pantalla 2.2:
 ![Pantalla 2 2 (Alternate 514{)](https://user-images.githubusercontent.com/51203238/58843021-5ee60680-8636-11e9-88ee-4337d66d33d0.png)
 
+
 #### Pantalla 3:
 ![Pantalla 3 (Alternate 206x)](https://user-images.githubusercontent.com/51203238/58843029-67d6d800-8636-11e9-85da-5fda06b48115.png)
 
 
 
-<div id='id3' />
+<div id='id3'>
 ## Investigación UX:
-
 
 <div id='id4'>
 ### Usuarios y los objetivos en relación con el producto
-Identifica y prioriza las tareas de tu proyecto; deberás escribirlas y mantenerlas
-actualizadas en un archivo de Google Docs mediante esta [plantilla](https://docs.google.com/document/d/1lgfQKRar21wmIhdNiiSDuL6odChMN16gAgeeHejLVcg).
-No dudes en solicitar ayuda a tus coaches.
+*El encriptador César* está dirigido principalmente a usuarios de productos financieros y redes sociales. En su mayoría adultos de entre 18 y 60 años, que suelen o requieren almacenar datos sensibles y privados de sus cuentas bantas bancarias y redes sociales sin temor a que éstas sean husmeadas por un tercero.
+
+Los objetivos del proyecto son:
+  * Permitir cifrar información sensible.
+  * Permitir descifrar inforamción cifrada.
+  * Evitar ser victima de phishing.
+  * Darle al usuario la tranquilidad de almacenar información en un archivo o repositorio cualquiera sin posibilidad de que alguien más la husmee.
+
+
+
 <div id='id5'>
 ### ¿Cómo soluciona los problemas de mis usuarios?
 Antes de iniciar a codear, debes entender el problema que quieres solucionar y cómo tu
