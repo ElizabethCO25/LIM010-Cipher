@@ -83,7 +83,7 @@ Respecto a la funcionalidad y diseño, tuve su aceptación.
 <div id='id7' />
 ### Prototipo final en Balsamiq
 
-<div id='id8' />
+<div id='id8'>
 ### **Imágenes de mi 1º Prototipo**
 
 #### Pantalla 1:
