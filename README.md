@@ -23,46 +23,47 @@ El *encriptador César* sirve para codificar información sensible de cuentas y 
 
 #### Imágenes del prototipado de Baja fidelidad (Lapiz y Papel)
 
-> Luego del feedback de mi prototipo en lápiz y papel obtuve la aprobación del diseño. Mis compañeras (posibles usuarias) me hicieron saber que era entendible, por ello decidí mantenerlo.
+**> Luego del feedback de mi prototipo en lápiz y papel obtuve la aprobación del diseño. Mis compañeras (posibles usuarias) me hicieron saber que era entendible, por ello decidí mantenerlo.**
 
 
-## Imágen final del proyecto - Prototipado en Balsamiq<div id='id2'/>
-#### Imagenes de mi 1º Prototipo
-######## Pantalla 1:
+## Imagen final del proyecto - Prototipado en Balsamiq<div id='id2'/>
+### **Imágenes de mi 1º Prototipo**
+#### Pantalla 1:
 ![Pantalla 1](https://user-images.githubusercontent.com/51203238/58842676-f8acb400-8634-11e9-9469-e732228068ca.png)
 
-######## Pantalla 2:
+#### Pantalla 2:
 ![Pantalla 2](https://user-images.githubusercontent.com/51203238/58842728-2abe1600-8635-11e9-9849-6818b718adf2.png)
 
-######## Pantalla 2.1:
+#### Pantalla 2.1:
 ![Pantalla 2 1](https://user-images.githubusercontent.com/51203238/58842752-42959a00-8635-11e9-973e-4c8dadff8071.png)
 
-######## Pantalla 2.2:
+#### Pantalla 2.2:
 ![Pantalla 2 2](https://user-images.githubusercontent.com/51203238/58842773-53461000-8635-11e9-8016-98bd74d1bf5c.png)
 
-######## Pantalla 3:
+##### Pantalla 3:
 ![Pantalla 3](https://user-images.githubusercontent.com/51203238/58842792-60fb9580-8635-11e9-9658-3ce0ee53df86.png)
 
-> Las anteriores imagenes son las de mi primer prototipo en Balsamiq. Pero cabe mencionar que, luego de un feedback con mis coaches, me recomendaron , de preferencia usar sólo botones y no listas desplegables o combo box; ello para agilizar el desarrollo de mi proyecto y no distraer mi aprendizaje.
-Entonces mi Prototipo Final fue el siguiente:
+**> Las anteriores imágenes son las de mi primer prototipo en Balsamiq. Pero cabe mencionar que, luego de un feedback con mis coaches, me recomendaron , de preferencia usar sólo botones y no listas desplegables o combo box; ello para agilizar el desarrollo de mi proyecto y no distraer mi aprendizaje.
+Entonces mi Prototipo Final fue el siguiente:**
 
-#### Imagenes de mi 2º Prototipo
-######## Pantalla 1:
+### **Imágenes de mi 2º Prototipo:**
+#### Pantalla 1:
 ![Pantalla 1](https://user-images.githubusercontent.com/51203238/58842676-f8acb400-8634-11e9-9469-e732228068ca.png)
 
-######## Pantalla 2:
+##### Pantalla 2:
 ![Pantalla 2 (Alternate 479x)](https://user-images.githubusercontent.com/51203238/58842956-1595b700-8636-11e9-983c-1c9d2b197407.png)
 
 
-######## Pantalla 2.1:
+#### Pantalla 2.1:
 ![Pantalla 2 1 (Alternate 912m)](https://user-images.githubusercontent.com/51203238/58843013-5392db00-8636-11e9-9b6c-233a53226b30.png)
 
 
-######## Pantalla 2.2:
+#### Pantalla 2.2:
 ![Pantalla 2 2 (Alternate 514{)](https://user-images.githubusercontent.com/51203238/58843021-5ee60680-8636-11e9-88ee-4337d66d33d0.png)
 
-######## Pantalla 3:
+#### Pantalla 3:
 ![Pantalla 3 (Alternate 206x)](https://user-images.githubusercontent.com/51203238/58843029-67d6d800-8636-11e9-85da-5fda06b48115.png)
+
 
 
 <div id='id3' />
