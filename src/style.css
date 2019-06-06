@@ -1,4 +1,6 @@
-/* Acá van tus reglas de estilo */
+
+/*Primera Pantala:*/
+
 body{
   background-image:url("../imagenes/ff2.png");
   background-size: cover;
@@ -7,13 +9,24 @@ body{
     -o-background-size: cover;
 }
 
+header{
+  background-image: url("../imagenes/header1.jpg");
+}
+
+
+.header{
+  font-weight : bold;
+  opacity: inherit;
+  font-size: 20px;
+  color: #ccc;
+  overflow: auto;
+}
 .titulo{
       text-align: center;
       font-weight : bold;
       font-size: 60px;
       color: white;
       overflow: auto;
-
 }
 
 .input1{
@@ -22,28 +35,59 @@ body{
     overflow: auto;
     text-align: center;
     margin-top: 30px;
-    margin-left: 445px;
+    margin-left: 650px;
     border-radius: 15px;
+    padding: 10PX;
+    font-size: 20PX;
 }
 
 .t1{
   text-align: center;
   font-weight : bold;
-  font-size: 30px;
+  font-size: 40px;
   color: white;
-  position: center;
+  overflow: auto;
   margin-top: 300px;
 }
 
 .boton{
-  background:#191970;
+  background:linear-gradient(#191970,#7FC5F3);
   color: #fff;
   font-size: 25px;
-  margin-top: 30px;
-  margin-left: 570px;
+  margin-top: 35px;
   border-radius: 15px;
   padding-top: 20;
   padding-bottom: 30;
+  padding: 10PX;
+  opacity: 0.8;
+  cursor: pointer;
+  margin-bottom:0;
+  margin:0 auto;
+  float:none;
+	text-align: center;
+  margin-left: 780px;
+  margin-top: 30px;
+}
+
+
+button:hover {
+  opacity: 1;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+@media (max-width:768px) {
+  form{
+      width: 95%;
+  }
+}
+
+@media (max-width:480px) {
+  form{
+    width: 95%;
+  }
 }
 .footer{
   font-size: 20px;
@@ -53,4 +97,99 @@ body{
   position: fixed;
   text-align: right;
   color:#F0FFFF;
+}
+
+/*Segunda Pantala:*/
+.titulo2{
+      font-weight : bold;
+      font-size: 60px;
+      color: white;
+      overflow: auto;
+      margin-left: auto;
+}
+
+.boton2{
+  background:linear-gradient(#191970,#7FC5F3);
+  color: #fff;
+  font-size: 25px;
+  margin-top: 35px;
+  border-radius: 15px;
+  padding-top: 20;
+  padding-bottom: 30;
+  padding: 10PX;
+  opacity: 0.8;
+  cursor: pointer;
+  margin-bottom:0;
+  margin:0 auto;
+  float:none;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.Contenedores{
+  display: flex;
+}
+
+.Cuadro{
+  flex-direction: row;
+  margin-left:80px;
+}
+
+.boton3{
+  background:linear-gradient(#191970,#7FC5F3);
+  color: #fff;
+  font-size: 25px;
+  margin-top: 35px;
+  border-radius: 15px;
+  padding-top: 20;
+  padding: 10PX;
+  opacity: 0.8;
+  cursor: pointer;
+  margin:0;
+  margin-top: 40px;
+}
+
+.cuadroTexto{
+  style="height: 300px;
+  width: 400px;
+  padding-bottom: 20px;"
+  border-radius: 15px;
+}
+
+.cuadroTexto{
+  margin-top: 50px;
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+
+
+
+
+
+textarea:hover {
+  opacity: 1;
+}
+
+textarea:active {
+  transform: scale(0.95);
+}
+
+.input2{
+    width: auto;
+    border: 50px;
+    overflow: auto;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10PX;
+    font-size: 20PX;
+    border-radius: 15px;
+    cursor: pointer;
+    flex-direction: row;
+}
+
+.ocultar{
+  display: none;
 }

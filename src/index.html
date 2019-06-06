@@ -4,30 +4,67 @@
 
     <meta charset="utf-8">
     <title>Encriptador César</title>
-    <link rel="icon" href="imagenes/icono header.PNG">
+    <link rel="icon" href="../imagenes/icono header.PNG">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
+        <h4 class="header"> My Cipher </h4>
     </header>
 
     <main>
+
+<!-- Primera Pantalla:-->
+<div id="pantalla1" >
       <h1  class="titulo" id="titulo"><strong>Bienvenido a "El Encriptador César"</strong> </h1>
       <p class="t1"><strong>Ingresar contraseña:</strong> </p>
-          <input class="input1" type="text"  id="contraseña" placeholder="Contraseña aquí..." >
-           <br><button class="boton" type="button" id="capturarContraseña" onclick="ObtenerContraseña()"> INGRESAR </button> <br/>
+        <input class="input1" type="password"  id="contraseña" placeholder= "&#128272;         Contraseña aquí...">
+        <br> <button class="boton" type="button"  id="capturarContraseña" > INGRESAR </button>
+</div>
+<!-- Segunda Pantalla:-->
+      <!-- Contenerdores:-->
 
-           <script>
-              /*document.getElementById("titulo").innerHTML = "Debes ingresar la contraseña";
-           </script>
+<div id="contenedor" class="ocultar">
+    <h2 class="titulo2" > ¿Qué deseas hacer? <button class="boton2" type="button"  id="capturarContraseña" > Encriptar </button> <button class="boton2" type="button"  id="capturarContraseña" > Desencriptar </button>
+    </h2>
 
-           <link rel="stylesheet" href="style.css" />
-      </main>
+    <div class="Contenedores">
+      <div class="Cuadro">
+        <textarea id="textArea1" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Ingresa tu texto aquí..."></textarea>
+      </div>
+
+      <div class="Cuadro">
+      <p1 class="t1"> <strong> Offset: </strong> </p1>
+      <br> <input class="input2" type="text"  id="Offset" placeholder= " &#9899;Ingresa Offset">
+      <br> <button class="boton3" type="button"  id="capturarContraseña" > &#8620; Encriptar/Desencriptar </button>
+      </div>
+
+      <div class="Cuadro">
+        <textarea id="textArea2" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Tu texto encriptado/desencriptado es..."></textarea>
+      </div>
+
+    </div>
+</div>
+
+    <!--<div id="contenedor" class="ocultar">
+      <h2 class="titulo2" > ¿Qué deseas hacer? <button class="boton2" type="button"  id="capturarContraseña" > Encriptar </button> <button class="boton2" type="button"  id="capturarContraseña" > Desencriptar </button>
+      </h2>
+
+    <textarea id="textArea1" class="cuadroTexto cuadroTexto1" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Ingresa tu texto aquí..."></textarea>
+    <p1 class="t1"> <strong> Offset: </strong> </p1>
+    <br> <input class="input2" type="text"  id="Offset" placeholder= " &#9899;Ingresa Offset"></br>
+    <br> <button class="boton" type="button"  id="capturarContraseña" > &#8620; Cifrar/Descrifrar </button> </br>
+    <textarea id="textArea2" class="cuadroTexto cuadroTexto2" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Tu texto encriptado/desencriptado es..."></textarea>
+
+    </div>
+
+  </main>-->
+
+
+
+
     <footer class="footer">
       <a href="https://www.laboratoria.la/">Derechos reservados por Laboratoria LA</a>
-
-      
-
     </footer>
 
 

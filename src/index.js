@@ -1,9 +1,19 @@
-function hacer_clickIngresar()
-{
-    alert("Ingresaste una contraseña");
-}
 
-let ObtenerContraseña = function(){
-    let contraseña = document.getElementById("contraseña").value;
-    console.log("La contraseña ingresada es: " + contraseña);
-}
+
+/*Primera Pantala:*/
+const capturarContraseña = document.getElementById("capturarContraseña");
+const obtenerContraseña = document.getElementById("contraseña");
+capturarContraseña.addEventListener("click",() =>
+{
+  if (obtenerContraseña.value === "laboratoria") {
+    alert("Contraseña Correcta");
+    document.getElementById("contenedor").classList.remove("ocultar");
+    document.getElementById("pantalla1").classList.add("ocultar");
+  }
+    else {
+      alert("Contraseña Incorrecta  ... Vuelve a intentarlo");
+    }
+} );
+
+
+/*Segunda Pantala:*/
