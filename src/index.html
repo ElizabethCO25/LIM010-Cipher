@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-        <h4 class="header"> My Cipher </h4>
+        <h4 class="header" > My Cipher </h4>
     </header>
 
     <main>
@@ -18,14 +18,14 @@
 <div id="pantalla1" >
       <h1  class="titulo" id="titulo"><strong>Bienvenido a "El Encriptador César"</strong> </h1>
       <p class="t1"><strong>Ingresar contraseña:</strong> </p>
-        <input class="input1" type="password"  id="contraseña" placeholder= "&#128272;         Contraseña aquí...">
-        <br> <button class="boton" type="button"  id="capturarContraseña" > INGRESAR </button>
+        <input class="input1" type="password"  required id="contraseña" placeholder= "&#128272;         Contraseña aquí...">
+        <br> <button  onclick="mostrarContador()"  class="boton" type="button"  id="botonInicio" > INGRESAR </button>
+        <p2 id="numIntentos" class="numeroIntentos">  </p2>
 </div>
 <!-- Segunda Pantalla:-->
-      <!-- Contenerdores:-->
 
-<div id="contenedor" class="ocultar">
-    <h2 class="titulo2" > ¿Qué deseas hacer? <button class="boton2" type="button"  id="capturarContraseña" > Encriptar </button> <button class="boton2" type="button"  id="capturarContraseña" > Desencriptar </button>
+<div id="pantalla2.1" class="ocultar">
+    <h2 class="titulo2" > ¿Qué deseas hacer? <button class="boton2" type="button"  id="bEncritar" > Encriptar </button> <button class="boton2" type="button"  id="bDesencriptar" > Desencriptar </button>
     </h2>
 
     <div class="Contenedores">
@@ -35,12 +35,35 @@
 
       <div class="Cuadro">
       <p1 class="t1"> <strong> Offset: </strong> </p1>
-      <br> <input class="input2" type="text"  id="Offset" placeholder= " &#9899;Ingresa Offset">
-      <br> <button class="boton3" type="button"  id="capturarContraseña" > &#8620; Encriptar/Desencriptar </button>
+      <br> <input class="input2" type="text"  id="Offset" onkeypress="return soloNumeros(event)" onpaste="return false" placeholder= " &#9899;Ingresa Offset">
+      <br> <button class="boton3" type="button"  id="ejecutar" > &#8620; Encriptar </button>
       </div>
 
       <div class="Cuadro">
-        <textarea id="textArea2" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Tu texto encriptado/desencriptado es..."></textarea>
+        <textarea id="textArea2" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Tu texto encriptado es..."></textarea>
+      </div>
+
+    </div>
+</div>
+
+
+<div id="pantalla2.2" class="ocultar">
+    <h2 class="titulo2" > ¿Qué deseas hacer? <button class="boton2" type="button"   id="bEncritar" > Encriptar </button> <button class="boton2" type="button"  id="bDesencriptar" > Desencriptar </button>
+    </h2>
+
+    <div class="Contenedores">
+      <div class="Cuadro">
+        <textarea id="textArea1" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Ingresa tu texto aquí..."></textarea>
+      </div>
+
+      <div class="Cuadro">
+      <p1 class="t1"> <strong> Offset: </strong> </p1>
+      <br> <input class="input2" type="text"  id="Offset" onkeypress="return soloNumeros(event)" onpaste="return false" placeholder= " &#9899;Ingresa Offset">
+      <br> <button class="boton3" type="button"  id="ejecutar" > &#8620; Desencriptar </button>
+      </div>
+
+      <div class="Cuadro">
+        <textarea id="textArea2" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Tu texto desencriptado es..."></textarea>
       </div>
 
     </div>
@@ -56,9 +79,13 @@
     <br> <button class="boton" type="button"  id="capturarContraseña" > &#8620; Cifrar/Descrifrar </button> </br>
     <textarea id="textArea2" class="cuadroTexto cuadroTexto2" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Tu texto encriptado/desencriptado es..."></textarea>
 
-    </div>
+  </div>-->
+<!--Pantalla de Bloqueo-->
+  <div id="pantallaBloqueo" class="ocultar">
+      <h2 class="mensajeBloq" > Lo sentimos, no podrás usar el encriptador. </h2>
+  </div>
 
-  </main>-->
+  </main>
 
 
 
