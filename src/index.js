@@ -5,57 +5,42 @@ const capturarContraseña = document.getElementById("botonInicio");
 const obtenerContraseña = document.getElementById("contraseña");
 botonInicio.addEventListener("click",() =>
 {
-  if (obtenerContraseña.value === "laboratoria") {
+  if (obtenerContraseña.value === "LABORATORIA") {
     alert("Contraseña Correcta");
     document.getElementById("pantalla2.1").classList.remove("ocultar");
     document.getElementById("pantalla1").classList.add("ocultar");
+    contraseña.value = "";
   }
     else {
-      
+      contraseña.value = "";
     }
 } );
 
 
-/*
-var contador = 0;
-var fin_contador = 3;
-var iniciado = false;
-function cuenta(){
-if(contador >= fin_contador){
-    alert("Contraseña Incorrecta  ... Vuelve a intentarlo");
-}else{
-    alert("Intentos maximo");
-    fin_contador = fin_contador - 1;
-}*/
 
-// Funciona para contar y mostrar el numero de clicks
+
+// Funciona para contar y mostrar el número de clicks
 let cuenta = (function(){
-    let contador = 0;
+    let contador = 3;
     return function(){
-        return contador ++;
+        return contador --;
         }
       })  ();
 
 function mostrarContador(){
   document.getElementById("numIntentos").innerHTML = cuenta();
-  if (cuenta() == 1){
-      alert ("Vuelve a intentar. Te quedan 2 intentos");
-    }
-    else if (cuenta() == 2) {
-      alert ("Vuelve a intentar. Te queda 1 intento");
-    }
-    else  if (cuenta() == 3) {
-      alert ("Vuelve a intentar. Es tu último intento");
-    }
+  if (cuenta() === 0){
+    alert ("Agotaste tus intentos de ingreso");
+    document.getElementById("pantallaBloqueo").classList.remove("ocultar");
+    document.getElementById("pantalla2.2").classList.add("ocultar");
+    document.getElementById("pantalla2.1").classList.add("ocultar");
+    document.getElementById("pantalla1").classList.add("ocultar");
+  }
     else {
-      alert ("Agotaste tus intentos de ingreso");
-      document.getElementById("pantallaBloqueo").classList.remove("ocultar");
-      document.getElementById("pantalla2.2").classList.add("ocultar");
-      document.getElementById("pantalla2.1").classList.add("ocultar");
-      document.getElementById("pantalla1").classList.add("ocultar");
-
+      alert ("Vuelve a intentar. ");
         }
     };
+
 
 
 
@@ -124,3 +109,17 @@ function soloNumeros(e){
       return false;
     }
 }
+
+
+//Pantalla 2.1 - Encriptar:
+
+/*const clickEncriptar = document.getElementById("bencriptar");
+const capturarTextoE = document.getElementById("textArea1");
+bencriptar.addEventListener("click",() =>
+{
+    document.getElementById(textArea2).value=capturarTexto;
+  }
+    else {
+      contraseña.value = "";
+    }
+ );*/

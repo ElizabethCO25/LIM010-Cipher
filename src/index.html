@@ -18,7 +18,7 @@
 <div id="pantalla1" >
       <h1  class="titulo" id="titulo"><strong>Bienvenido a "El Encriptador César"</strong> </h1>
       <p class="t1"><strong>Ingresar contraseña:</strong> </p>
-        <input class="input1" type="password"  required id="contraseña" placeholder= "&#128272;         Contraseña aquí...">
+        <input class="input1" type="password" maxlength="11" required id="contraseña" placeholder= "&#128272;         Contraseña aquí...">
         <br> <button  onclick="mostrarContador()"  class="boton" type="button"  id="botonInicio" > INGRESAR </button>
         <p2 id="numIntentos" class="numeroIntentos">  </p2>
 </div>
@@ -36,11 +36,11 @@
       <div class="Cuadro">
       <p1 class="t1"> <strong> Offset: </strong> </p1>
       <br> <input class="input2" type="text"  id="Offset" onkeypress="return soloNumeros(event)" onpaste="return false" placeholder= " &#9899;Ingresa Offset">
-      <br> <button class="boton3" type="button"  id="ejecutar" > &#8620; Encriptar </button>
+      <br> <button class="boton3" type="button"  id="bencriptar"  > &#8620; Encriptar </button>
       </div>
 
       <div class="Cuadro">
-        <textarea id="textArea2" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Tu texto encriptado es..."></textarea>
+        <textarea id="textArea2" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Tu texto encriptado es..." readonly></textarea>
       </div>
 
     </div>
@@ -80,6 +80,14 @@
     <textarea id="textArea2" class="cuadroTexto cuadroTexto2" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Tu texto encriptado/desencriptado es..."></textarea>
 
   </div>-->
+
+
+
+
+
+
+
+
 <!--Pantalla de Bloqueo-->
   <div id="pantallaBloqueo" class="ocultar">
       <h2 class="mensajeBloq" > Lo sentimos, no podrás usar el encriptador. </h2>
