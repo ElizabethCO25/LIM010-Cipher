@@ -2,15 +2,16 @@
 /*Primera Pantala:*/
 
 body{
-  background-image:url("../imagenes/ff2.png");
+  background-image:url("../imagenes/fondounico.png");
   background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
 }
 
+
 header{
-  background-image: url("../imagenes/header1.jpg");
+  background-image: url("../imagenes/Header.png");
 }
 
 
@@ -26,7 +27,6 @@ header{
       font-weight : bold;
       font-size: 60px;
       color: white;
-      overflow: auto;
 }
 
 .input1{
@@ -34,8 +34,8 @@ header{
     border: 50px;
     overflow: auto;
     text-align: center;
-    margin-top: 30px;
-    margin-left: 650px;
+    margin-top: 0;
+    margin-left: 640px;
     border-radius: 15px;
     padding: 10PX;
     font-size: 20PX;
@@ -46,37 +46,17 @@ header{
   font-weight : bold;
   font-size: 40px;
   color: white;
-  overflow: auto;
-  margin-top: 300px;
+  margin-top:0;
+  margin-bottom: 20px;
 }
 
-.boton{
-  background:linear-gradient(#191970,#7FC5F3);
-  color: #fff;
-  font-size: 25px;
-  margin-top: 35px;
-  border-radius: 15px;
-  padding-top: 20;
-  padding-bottom: 30;
-  padding: 10PX;
-  opacity: 0.8;
-  cursor: pointer;
-  margin-bottom:0;
-  margin:0 auto;
-  float:none;
-	text-align: center;
-  margin-left: 780px;
-  margin-top: 30px;
+.t2{
+    font-size: 25px;
+    color: white;
+    margin-top:0;
+    margin-bottom: 0;
 }
 
-
-button:hover {
-  opacity: 1;
-}
-
-button:active {
-  transform: scale(0.95);
-}
 
 @media (max-width:768px) {
   form{
@@ -96,7 +76,8 @@ button:active {
   bottom: 0;
   position: fixed;
   text-align: right;
-  color:#F0FFFF;
+  color:#336699;
+  text-shadow: white;
 }
 
 /*Segunda Pantala:*/
@@ -108,7 +89,10 @@ button:active {
       margin-left: auto;
 }
 
-.boton2{
+/*BOTONES:*/
+/*Botón Inicio:*/
+
+.botonInicio{
   background:linear-gradient(#191970,#7FC5F3);
   color: #fff;
   font-size: 25px;
@@ -122,9 +106,67 @@ button:active {
   margin-bottom:0;
   margin:0 auto;
   float:none;
-  margin-left: 100px;
+	text-align: center;
+  margin-left: 780px;
   margin-top: 30px;
 }
+
+button:hover {
+  opacity: 1;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/*Opciones Encriptar o Desencriptar: */
+.botones{
+  background:linear-gradient(#191970,#7FC5F3);
+  color: #fff;
+  font-size: 25px;
+  margin-top: 35px;
+  border-radius: 15px;
+  padding-top: 20;
+  padding-bottom: 30;
+  padding: 10PX;
+  opacity: 0.8;
+  cursor: pointer;
+  float:none;
+}
+
+.botonOpciones{
+  margin-left: 100px;
+  margin-bottom:10px;
+}
+
+/*Botones de Ejecución : Encriptar ó Desencriptar*/
+
+.bEncriptar{
+  margin-left: 50px;
+  margin:0;
+  margin-top: 40px;
+}
+.bDesencriptar{
+  margin-left: 40px;
+  margin:0;
+  margin-top: 40px;
+}
+
+/*Botones de Ejecución :  Reset y Salir:*/
+.bReset{
+  margin-left: 1130px;
+}
+.bSalir{
+  margin-left: 150px;
+}
+
+.bRegresar{
+  margin-left: 750px;
+  margin-top: 15px;
+}
+
+
+/**/
 .Contenedores{
   display: flex;
 }
@@ -134,41 +176,22 @@ button:active {
   margin-left:80px;
 }
 
-.boton3{
-  background:linear-gradient(#191970,#7FC5F3);
-  color: #fff;
-  font-size: 25px;
-  margin-top: 35px;
-  border-radius: 15px;
-  padding-top: 20;
-  padding: 10PX;
-  opacity: 0.8;
-  cursor: pointer;
-  margin:0;
-  margin-top: 40px;
-  margin-left: 60px;
-}
 
+
+
+/*Cuadros de texto:*/
 .cuadroTexto{
   style="height: 300px;
   width: 400px;
-  padding-bottom: 20px;"
+  padding-bottom: 20px;
   border-radius: 15px;
-}
-
-.cuadroTexto{
-  margin-top: 50px;
   opacity: 0.8;
   cursor: pointer;
   border-radius: 15px;
   font-size: 20px;
   font-family: cursive;
+  margin-top: 10px;
 }
-
-
-
-
-
 
 textarea:hover {
   opacity: 1;
@@ -195,8 +218,8 @@ textarea:active {
   display: none;
 }
 
-
-.mensajeBloq{
+/*MENSAJES:*/
+.mensajes{
   text-align: center;
   font-weight : bold;
   font-size: 80px;
@@ -204,9 +227,25 @@ textarea:active {
   overflow: auto;
   margin-top: 300px;
   cursor: pointer;
+}
+.mensajeBloq{
+  margin-top: 100px;
   }
+.mensajeDesp{
+  margin-top: 100px;
+}
 
 .numeroIntentos{
   text-align: center;
+}
 
+/*IMAGENES:*/
+.imagenCentrada{
+  margin-top: 0;
+  margin-left: 730px;
+  margin-bottom: 0;
+}
+.imagenCurso{
+  margin-top: 50px;
+  margin-left: 40px;
 }

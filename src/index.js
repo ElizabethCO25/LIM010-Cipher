@@ -7,7 +7,7 @@ botonInicio.addEventListener("click",() =>
 {
   if (obtenerContraseña.value === "LABORATORIA") {
     alert("Contraseña Correcta");
-    document.getElementById("pantalla2.1").classList.remove("ocultar");
+    document.getElementById("pantalla2").classList.remove("ocultar");
     document.getElementById("pantalla1").classList.add("ocultar");
     contraseña.value = "";
   }
@@ -37,7 +37,7 @@ function mostrarContador(){
     document.getElementById("pantalla1").classList.add("ocultar");
   }
     else {
-      alert ("Vuelve a intentar. ");
+      alert ("Vuelve a intentar");
         }
     };
 
@@ -74,11 +74,12 @@ function mostrarContador(){
 );*/
 
 
-/*Segunda Pantala:*/
+/*SEGUNDA PANTALLA:*/
 /*Elección de opciones:*/
-const eleccionOpcion1 = document.getElementById("bEncritar");
+const eleccionOpcion1 = document.getElementById("bEncriptar");
 eleccionOpcion1.addEventListener("click",() =>
 {
+    document.getElementById("pantalla2").classList.remove("ocultar");
     document.getElementById("pantalla2.1").classList.remove("ocultar");
     document.getElementById("pantalla2.2").classList.add("ocultar");
     document.getElementById("pantalla1").classList.add("ocultar");
@@ -87,6 +88,7 @@ eleccionOpcion1.addEventListener("click",() =>
 const eleccionOpcion2 = document.getElementById("bDesencriptar");
 eleccionOpcion2.addEventListener("click",() =>
 {
+    document.getElementById("pantalla2").classList.remove("ocultar");
     document.getElementById("pantalla2.2").classList.remove("ocultar");
     document.getElementById("pantalla2.1").classList.add("ocultar");
     document.getElementById("pantalla1").classList.add("ocultar");
@@ -109,6 +111,40 @@ function soloNumeros(e){
       return false;
     }
 }
+
+// Función botón RESET:
+const capturarClickReset = document.getElementById("bReset");
+const textoIng = document.getElementById("textArea1");
+const textoObt = document.getElementById("textArea2");
+capturarClickReset.addEventListener("click",() =>
+  {
+    textoIng.value = " ";
+    textoObt.value = " ";
+  }
+);
+// Función botón SALIR:
+const eleccionSalir = document.getElementById("bSalir");
+eleccionSalir.addEventListener("click",() =>
+{
+    document.getElementById("pantalla3").classList.remove("ocultar");
+    document.getElementById("pantalla2").classList.add("ocultar");
+    document.getElementById("pantalla2.1").classList.add("ocultar");
+    document.getElementById("pantalla2.2").classList.add("ocultar");
+    document.getElementById("pantalla1").classList.add("ocultar");
+} );
+
+
+//TERCERA PANTALLA:
+// Función botón REGRESAR:
+const eleccionRegresar = document.getElementById("bRegresar");
+eleccionRegresar.addEventListener("click",() =>
+{
+    document.getElementById("pantalla2").classList.remove("ocultar");
+    document.getElementById("pantalla3").classList.add("ocultar");
+    document.getElementById("pantalla2.1").classList.add("ocultar");
+    document.getElementById("pantalla2.2").classList.add("ocultar");
+    document.getElementById("pantalla1").classList.add("ocultar");
+} );
 
 
 //Pantalla 2.1 - Encriptar:

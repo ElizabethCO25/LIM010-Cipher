@@ -9,77 +9,88 @@
   </head>
   <body>
     <header>
-        <h4 class="header" > My Cipher </h4>
+        <br>
+        <br>
+
     </header>
 
     <main>
 
 <!-- Primera Pantalla:-->
+
 <div id="pantalla1" >
       <h1  class="titulo" id="titulo"><strong>Bienvenido a "El Encriptador César"</strong> </h1>
+      <img src="../imagenes/imagenbienvenida.png" class="imagenCentrada">
       <p class="t1"><strong>Ingresar contraseña:</strong> </p>
         <input class="input1" type="password" maxlength="11" required id="contraseña" placeholder= "&#128272;         Contraseña aquí...">
-        <br> <button  onclick="mostrarContador()"  class="boton" type="button"  id="botonInicio" > INGRESAR </button>
+        <br> <button  onclick="mostrarContador()"  class="botonInicio" type="button"  id="botonInicio" > INGRESAR </button>
         <p2 id="numIntentos" class="numeroIntentos">  </p2>
 </div>
-<!-- Segunda Pantalla:-->
 
-<div id="pantalla2.1" class="ocultar">
-    <h2 class="titulo2" > ¿Qué deseas hacer? <button class="boton2" type="button"  id="bEncritar" > Encriptar </button> <button class="boton2" type="button"  id="bDesencriptar" > Desencriptar </button>
-    </h2>
 
-    <div class="Contenedores">
-      <div class="Cuadro">
-        <textarea id="textArea1" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Ingresa tu texto aquí..."></textarea>
-      </div>
 
-      <div class="Cuadro">
-      <p1 class="t1"> <strong> Offset: </strong> </p1>
-      <br> <input class="input2" type="text"  id="Offset" onkeypress="return soloNumeros(event)" onpaste="return false" placeholder= " &#9899;Ingresa Offset">
-      <br> <button class="boton3" type="button"  id="bencriptar"  > &#8620; Encriptar </button>
-      </div>
+<!-- SEGUNDA PANTALLA:-->
 
-      <div class="Cuadro">
-        <textarea id="textArea2" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Tu texto encriptado es..." readonly></textarea>
-      </div>
+  <div id="pantalla2" class="ocultar">
+    <h2 class="titulo2" > ¿Qué deseas hacer? <button class="botones botonOpciones" type="button"  id="bEncriptar" > ENCRIPTAR </button> <button class="botones botonOpciones" type="button"  id="bDesencriptar" > DESENCRIPTAR </button> </h2>
 
+  </div>
+  <!-- Opción Encriptar:-->
+    <div id="pantalla2.1" class="ocultar">
+          <div class="Contenedores">
+        <div class="Cuadro">
+          <p1 class="t2"> <strong> Texto a encriptar: </strong> </p1>
+          <textarea id="textArea1" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Ingresa tu texto aquí..."></textarea>
+        </div>
+
+        <div class="Cuadro">
+          <p1 class="t1"> <strong> Offset: </strong> </p1>
+          <br> <input class="input2" type="text"  id="Offset" onkeypress="return soloNumeros(event)" onpaste="return false" placeholder= " &#9899;Ingresa Offset">
+          <br> <button class="botones bEncriptar" type="button"  id="bHacerEncriptar"  > &#8620; Encriptar </button>
+          <br><img src="../imagenes/imagenejecucion.png" class="imagenCurso">
+        </div>
+
+        <div class="Cuadro">
+          <p1 class="t2"> <strong> Texto encriptado: </strong> </p1>
+          <textarea id="textArea2" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Tu texto encriptado es..." readonly=readonly></textarea>
+        </div>
     </div>
+    <!-- Botones Reset y Salir:-->
+        <button class="botones bReset" type="button"  id="bReset" > &#128394;   RESETEAR </button> <button class="botones bSalir" type="button"  id="bSalir" > &#8998;  SALIR </button>
 </div>
 
-
+<!-- Opción Desencriptar:-->
 <div id="pantalla2.2" class="ocultar">
-    <h2 class="titulo2" > ¿Qué deseas hacer? <button class="boton2" type="button"   id="bEncritar" > Encriptar </button> <button class="boton2" type="button"  id="bDesencriptar" > Desencriptar </button>
-    </h2>
-
-    <div class="Contenedores">
+      <div class="Contenedores">
       <div class="Cuadro">
+        <p1 class="t2"> <strong> Texto a desencriptar: </strong> </p1>
         <textarea id="textArea1" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Ingresa tu texto aquí..."></textarea>
       </div>
 
       <div class="Cuadro">
       <p1 class="t1"> <strong> Offset: </strong> </p1>
       <br> <input class="input2" type="text"  id="Offset" onkeypress="return soloNumeros(event)" onpaste="return false" placeholder= " &#9899;Ingresa Offset">
-      <br> <button class="boton3" type="button"  id="ejecutar" > &#8620; Desencriptar </button>
+      <br> <button class="botones bDesencriptar" type="button"  id="bHacerDesencriptar" > &#8620; Desencriptar </button>
+      <br><img src="../imagenes/imagenejecucion.png" class="imagenCurso">
       </div>
 
       <div class="Cuadro">
-        <textarea id="textArea2" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Tu texto desencriptado es..."></textarea>
-      </div>
-
+        <p1 class="t2"> <strong> Texto desencriptado: </strong> </p1>
+        <textarea id="textArea2" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Tu texto desencriptado es..." readonly=readonly ></textarea>
+     </div>
     </div>
+    <!-- Botones Reset y Salir:-->
+        <button class="botones bReset" type="button"  id="bReset" > &#128394;   RESETEAR </button> <button class="botones bSalir" type="button"  id="bSalir" > &#8998;  SALIR </button>
+  </div>
 </div>
 
-    <!--<div id="contenedor" class="ocultar">
-      <h2 class="titulo2" > ¿Qué deseas hacer? <button class="boton2" type="button"  id="capturarContraseña" > Encriptar </button> <button class="boton2" type="button"  id="capturarContraseña" > Desencriptar </button>
-      </h2>
 
-    <textarea id="textArea1" class="cuadroTexto cuadroTexto1" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Ingresa tu texto aquí..."></textarea>
-    <p1 class="t1"> <strong> Offset: </strong> </p1>
-    <br> <input class="input2" type="text"  id="Offset" placeholder= " &#9899;Ingresa Offset"></br>
-    <br> <button class="boton" type="button"  id="capturarContraseña" > &#8620; Cifrar/Descrifrar </button> </br>
-    <textarea id="textArea2" class="cuadroTexto cuadroTexto2" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Tu texto encriptado/desencriptado es..."></textarea>
-
-  </div>-->
+<!-- TERCERA PANTALLA:-->
+<div id="pantalla3" class="ocultar">
+    <h2 class="mensajes mensajeDesp" > Muchas gracias por usar el encriptar César </h2>
+    <img src="../imagenes/imagendespedida.png" class="imagenCentrada">
+    <button class="botones bRegresar" type="button"  id="bRegresar" > &#9003;   REGRESAR </button>
+</div>
 
 
 
@@ -90,7 +101,8 @@
 
 <!--Pantalla de Bloqueo-->
   <div id="pantallaBloqueo" class="ocultar">
-      <h2 class="mensajeBloq" > Lo sentimos, no podrás usar el encriptador. </h2>
+      <h2 class="mensajes mensajeBloq" > Lo sentimos, no podrás usar el encriptador. </h2>
+      <img src="../imagenes/imagenbloqueo.png" class="imagenCentrada">
   </div>
 
   </main>
