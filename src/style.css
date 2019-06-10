@@ -153,10 +153,17 @@ button:active {
 }
 
 /*Botones de Ejecución :  Reset y Salir:*/
-.bReset{
+.bReset1{
   margin-left: 1130px;
 }
-.bSalir{
+.bSalir1{
+  margin-left: 150px;
+}
+
+.bReset2{
+  margin-left: 1130px;
+}
+.bSalir2{
   margin-left: 150px;
 }
 

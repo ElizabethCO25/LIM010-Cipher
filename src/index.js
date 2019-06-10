@@ -3,6 +3,7 @@
 /*Primera Pantala:*/
 const capturarContraseña = document.getElementById("botonInicio");
 const obtenerContraseña = document.getElementById("contraseña");
+let cuenta =2;
 botonInicio.addEventListener("click",() =>
 {
   if (obtenerContraseña.value === "LABORATORIA") {
@@ -10,68 +11,21 @@ botonInicio.addEventListener("click",() =>
     document.getElementById("pantalla2").classList.remove("ocultar");
     document.getElementById("pantalla1").classList.add("ocultar");
     contraseña.value = "";
-  }
-    else {
+  }else if (cuenta === 0){
+      alert ("Agotaste tus intentos de ingreso");
+
+      document.getElementById("pantallaBloqueo").classList.remove("ocultar");
+      document.getElementById("pantalla2.2").classList.add("ocultar");
+      document.getElementById("pantalla2.1").classList.add("ocultar");
+      document.getElementById("pantalla1").classList.add("ocultar");
       contraseña.value = "";
+    }else{
+      alert("Vuelve a intentarlo");
+      contraseña.value = "";
+      cuenta --;
     }
+
 } );
-
-
-
-
-// Funciona para contar y mostrar el número de clicks
-let cuenta = (function(){
-    let contador = 3;
-    return function(){
-        return contador --;
-        }
-      })  ();
-
-function mostrarContador(){
-  document.getElementById("numIntentos").innerHTML = cuenta();
-  if (cuenta() === 0){
-    alert ("Agotaste tus intentos de ingreso");
-    document.getElementById("pantallaBloqueo").classList.remove("ocultar");
-    document.getElementById("pantalla2.2").classList.add("ocultar");
-    document.getElementById("pantalla2.1").classList.add("ocultar");
-    document.getElementById("pantalla1").classList.add("ocultar");
-  }
-    else {
-      alert ("Vuelve a intentar");
-        }
-    };
-
-
-
-
-
-
-
-//Contador de clicks en "INICIAR"
-/*function Contar() {
-  let contador = 0;
-  document.getElementById("botonInicio").onclick = function Contar(){
-    contador ++;
-  }
-}*/
-
-//Desabilitar botón de ingreso
-
-/*  const cuentaClicks = document.getElementById("botonInicio");
-  cuentaClicks.addEventListener("click",() =>
-  {
-    let contador = 0;
-      contador ++;
-  if(contador.value === 4)
-  {
-    botonInicio.disable = true;
-    alert("Superaste el número de intentos permitidos - No podrás ingresar por ahora");
-  }
-    else {
-      botonInicio.disable = false;
-    }
-  }
-);*/
 
 
 /*SEGUNDA PANTALLA:*/
@@ -112,19 +66,40 @@ function soloNumeros(e){
     }
 }
 
-// Función botón RESET:
-const capturarClickReset = document.getElementById("bReset");
-const textoIng = document.getElementById("textArea1");
-const textoObt = document.getElementById("textArea2");
+// Función botón RESET1:
+const capturarClickReset = document.getElementById("bReset1");
+const textoIng = document.getElementById("textArea1.1");
+const textoObt = document.getElementById("textArea1.2");
 capturarClickReset.addEventListener("click",() =>
   {
     textoIng.value = " ";
     textoObt.value = " ";
   }
 );
-// Función botón SALIR:
-const eleccionSalir = document.getElementById("bSalir");
+// Función botón SALIR1:
+const eleccionSalir = document.getElementById("bSalir1");
 eleccionSalir.addEventListener("click",() =>
+{
+    document.getElementById("pantalla3").classList.remove("ocultar");
+    document.getElementById("pantalla2").classList.add("ocultar");
+    document.getElementById("pantalla2.1").classList.add("ocultar");
+    document.getElementById("pantalla2.2").classList.add("ocultar");
+    document.getElementById("pantalla1").classList.add("ocultar");
+} );
+
+// Función botón RESET2:
+const capturarClickReset2 = document.getElementById("bReset2");
+const textoIng2 = document.getElementById("textArea2.1");
+const textoObt2 = document.getElementById("textArea2.2");
+capturarClickReset2.addEventListener("click",() =>
+  {
+    textoIng2.value = " ";
+    textoObt2.value = " ";
+  }
+);
+// Función botón SALIR2:
+const eleccionSalir2 = document.getElementById("bSalir2");
+eleccionSalir2.addEventListener("click",() =>
 {
     document.getElementById("pantalla3").classList.remove("ocultar");
     document.getElementById("pantalla2").classList.add("ocultar");
@@ -147,15 +122,10 @@ eleccionRegresar.addEventListener("click",() =>
 } );
 
 
-//Pantalla 2.1 - Encriptar:
-
-/*const clickEncriptar = document.getElementById("bencriptar");
-const capturarTextoE = document.getElementById("textArea1");
-bencriptar.addEventListener("click",() =>
+//Mandar el texto de una TXTAREA a otra:
+const capturarClickEncrip = document.getElementById("bHacerEncriptar");
+const texto = document.getElementById("textArea1.1");
+bHacerEncriptar.addEventListener("click",() =>
 {
-    document.getElementById(textArea2).value=capturarTexto;
-  }
-    else {
-      contraseña.value = "";
-    }
- );*/
+  document.getElementById("textArea1.2").innerHTML= texto.value;
+});
