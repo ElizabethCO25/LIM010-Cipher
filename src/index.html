@@ -37,7 +37,7 @@
 
   </div>
   <!-- Opción Encriptar:-->
-    <div id="pantalla2.1" class="ocultar">
+    <form id="pantalla2.1" class="ocultar">
           <div class="Contenedores">
         <div class="Cuadro">
           <p1 class="t2"> <strong> Texto a encriptar: </strong> </p1>
@@ -57,11 +57,11 @@
         </div>
     </div>
     <!-- Botones Reset y Salir:-->
-        <button class="botones bReset1" type="button"  id="bReset1" > &#128394;   RESETEAR </button> <button class="botones bSalir1" type="button"  id="bSalir1" > &#8998;  SALIR </button>
-</div>
+        <input class="botones bReset1" type="reset"  id="bReset1" value=" &#128394;   RESETEAR" /> <button class="botones bSalir1" type="button"  id="bSalir1" > &#8998;  SALIR </button>
+</form>
 
 <!-- Opción Desencriptar:-->
-<div id="pantalla2.2" class="ocultar">
+<form id="pantalla2.2" class="ocultar">
       <div class="Contenedores">
       <div class="Cuadro">
         <p1 class="t2"> <strong> Texto a desencriptar: </strong> </p1>
@@ -70,7 +70,7 @@
 
       <div class="Cuadro">
       <p1 class="t1"> <strong> Offset: </strong> </p1>
-      <br> <input class="input2" type="text"  id="Offset" onkeypress="return soloNumeros(event)" onpaste="return false" placeholder= " &#9899;Ingresa Offset">
+      <br> <input class="input2" type="text"  id="Offset2" onkeypress="return soloNumeros(event)" onpaste="return false" placeholder= " &#9899;Ingresa Offset">
       <br> <button class="botones bDesencriptar" type="button"  id="bHacerDesencriptar" > &#8620; Desencriptar </button>
       <br><img src="../imagenes/imagenejecucion.png" class="imagenCurso">
       </div>
@@ -81,14 +81,14 @@
      </div>
     </div>
     <!-- Botones Reset y Salir:-->
-        <button class="botones bReset2" type="button"  id="bReset2" > &#128394;   RESETEAR </button> <button class="botones bSalir2" type="button"  id="bSalir2" > &#8998;  SALIR </button>
+        <input class="botones bReset2" type="reset"  id="bReset2" value=" &#128394;   RESETEAR" /> <button class="botones bSalir2" type="button"  id="bSalir2" > &#8998;  SALIR </button>
   </div>
-</div>
+</form>
 
 
 <!-- TERCERA PANTALLA:-->
 <div id="pantalla3" class="ocultar">
-    <h2 class="mensajes mensajeDesp" > Muchas gracias por usar el encriptar César </h2>
+    <h2 class="mensajes mensajeDesp" > Muchas gracias por usar el encriptardor de César </h2>
     <img src="../imagenes/imagendespedida.png" class="imagenCentrada">
     <button class="botones bRegresar" type="button"  id="bRegresar" > &#9003;   REGRESAR </button>
 </div>

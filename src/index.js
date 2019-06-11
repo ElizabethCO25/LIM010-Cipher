@@ -66,16 +66,7 @@ function soloNumeros(e){
     }
 }
 
-// Función botón RESET1:
-const capturarClickReset = document.getElementById("bReset1");
-const textoIng = document.getElementById("textArea1.1");
-const textoObt = document.getElementById("textArea1.2");
-capturarClickReset.addEventListener("click",() =>
-  {
-    textoIng.value = " ";
-    textoObt.value = " ";
-  }
-);
+//BOTONES SALIR:
 // Función botón SALIR1:
 const eleccionSalir = document.getElementById("bSalir1");
 eleccionSalir.addEventListener("click",() =>
@@ -87,16 +78,6 @@ eleccionSalir.addEventListener("click",() =>
     document.getElementById("pantalla1").classList.add("ocultar");
 } );
 
-// Función botón RESET2:
-const capturarClickReset2 = document.getElementById("bReset2");
-const textoIng2 = document.getElementById("textArea2.1");
-const textoObt2 = document.getElementById("textArea2.2");
-capturarClickReset2.addEventListener("click",() =>
-  {
-    textoIng2.value = " ";
-    textoObt2.value = " ";
-  }
-);
 // Función botón SALIR2:
 const eleccionSalir2 = document.getElementById("bSalir2");
 eleccionSalir2.addEventListener("click",() =>
@@ -122,10 +103,20 @@ eleccionRegresar.addEventListener("click",() =>
 } );
 
 
-//Mandar el texto de una TXTAREA a otra:
-const capturarClickEncrip = document.getElementById("bHacerEncriptar");
-const texto = document.getElementById("textArea1.1");
-bHacerEncriptar.addEventListener("click",() =>
-{
-  document.getElementById("textArea1.2").innerHTML= texto.value;
-});
+//ENCRIPTANDO:
+//Texto a encriptar:
+  const clickEncriptar = document.getElementById("bHacerEncriptar");
+  clickEncriptar.addEventListener("click", function() {
+      let textoEncriptado = document.getElementById("textArea1.1").value;
+      let numOffset = document.getElementById("Offset").value;
+      document.getElementById("textArea1.2").innerHTML = window.cipher.encode(numOffset, textoEncriptado);
+  });
+
+//DESENCRIPTANDO:
+//Texto a desencriptar:
+  const clickDesencriptar = document.getElementById("bHacerDesencriptar");
+  clickDesencriptar.addEventListener("click", function() {
+      let textoDesencriptado = document.getElementById("textArea2.1").value;
+      let numOffset2 = document.getElementById("Offset2").value;
+      document.getElementById("textArea2.2").innerHTML = window.cipher.decode(numOffset2, textoDesencriptado);
+  });
