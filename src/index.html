@@ -37,53 +37,53 @@
 
   </div>
   <!-- Opción Encriptar:-->
-    <form id="pantalla2.1" class="ocultar">
+    <div id="pantalla2.1" class="ocultar">
           <div class="Contenedores">
         <div class="Cuadro">
           <p1 class="t2"> <strong> Texto a encriptar: </strong> </p1>
-          <textarea id="textArea1.1" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Ingresa tu texto aquí..."></textarea>
+          <textarea id="textArea1_1" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Ingresa tu texto aquí..."></textarea>
         </div>
 
         <div class="Cuadro">
           <p1 class="t1"> <strong> Offset: </strong> </p1>
-          <br> <input class="input2" type="text"  id="Offset" onkeypress="return soloNumeros(event)" onpaste="return false" placeholder= " &#9899;Ingresa Offset">
+          <br> <input class="input2" type="text"  id="offset" onkeypress="return soloNumeros(event)" onpaste="return false" placeholder= " &#9899;Ingresa Offset">
           <br> <button class="botones bEncriptar" type="button"  id="bHacerEncriptar"  > &#8620; Encriptar </button>
           <br><img src="../imagenes/imagenejecucion.png" class="imagenCurso">
         </div>
 
         <div class="Cuadro">
           <p1 class="t2"> <strong> Texto encriptado: </strong> </p1>
-          <textarea id="textArea1.2" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Tu texto encriptado es..." readonly=readonly></textarea>
+          <textarea id="textArea1_2" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Tu texto encriptado es..." readonly=readonly></textarea>
         </div>
     </div>
     <!-- Botones Reset y Salir:-->
-        <input class="botones bReset1" type="reset"  id="bReset1" value=" &#128394;   RESETEAR" /> <button class="botones bSalir1" type="button"  id="bSalir1" > &#8998;  SALIR </button>
-</form>
+        <button class="botones bReset1" type="button"  id="bReset1"> &#128394;   RESETEAR </button> <button class="botones bSalir1" type="button"  id="bSalir1" > &#8998;  SALIR </button>
+</div>
 
 <!-- Opción Desencriptar:-->
-<form id="pantalla2.2" class="ocultar">
+<div id="pantalla2.2" class="ocultar">
       <div class="Contenedores">
       <div class="Cuadro">
         <p1 class="t2"> <strong> Texto a desencriptar: </strong> </p1>
-        <textarea id="textArea2.1" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Ingresa tu texto aquí..."></textarea>
+        <textarea id="textArea2_1" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Ingresa tu texto aquí..."></textarea>
       </div>
 
       <div class="Cuadro">
       <p1 class="t1"> <strong> Offset: </strong> </p1>
-      <br> <input class="input2" type="text"  id="Offset2" onkeypress="return soloNumeros(event)" onpaste="return false" placeholder= " &#9899;Ingresa Offset">
+      <br> <input class="input2" type="text"  id="offset2" onkeypress="return soloNumeros(event)" onpaste="return false" placeholder= " &#9899;Ingresa Offset">
       <br> <button class="botones bDesencriptar" type="button"  id="bHacerDesencriptar" > &#8620; Desencriptar </button>
       <br><img src="../imagenes/imagenejecucion.png" class="imagenCurso">
       </div>
 
       <div class="Cuadro">
         <p1 class="t2"> <strong> Texto desencriptado: </strong> </p1>
-        <textarea id="textArea2.2" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Tu texto desencriptado es..." readonly=readonly ></textarea>
+        <textarea id="textArea2_2" class="cuadroTexto" style="height: 400px; width: 500px; padding-bottom: 20px; " placeholder="Tu texto desencriptado es..." readonly=readonly ></textarea>
      </div>
     </div>
     <!-- Botones Reset y Salir:-->
-        <input class="botones bReset2" type="reset"  id="bReset2" value=" &#128394;   RESETEAR" /> <button class="botones bSalir2" type="button"  id="bSalir2" > &#8998;  SALIR </button>
+        <button class="botones bReset2" type="button"  id="bReset2" > &#128394;   RESETEAR </button> <button class="botones bSalir2" type="button"  id="bSalir2" > &#8998;  SALIR </button>
   </div>
-</form>
+</div>
 
 
 <!-- TERCERA PANTALLA:-->
