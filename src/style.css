@@ -209,7 +209,7 @@ textarea:active {
 }
 
 .input2{
-    width: auto;
+    width: 250px;
     border: 50px;
     overflow: auto;
     text-align: center;

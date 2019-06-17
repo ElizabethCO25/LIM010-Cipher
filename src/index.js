@@ -4,13 +4,13 @@
 const capturarContraseña = document.getElementById("botonInicio");
 const obtenerContraseña = document.getElementById("contraseña");
 let cuenta =2;
-botonInicio.addEventListener("click",() =>
+capturarContraseña.addEventListener("click",() =>
 {
   if (obtenerContraseña.value === "LABORATORIA") {
     alert("Contraseña Correcta");
     document.getElementById("pantalla2").classList.remove("ocultar");
     document.getElementById("pantalla1").classList.add("ocultar");
-    contraseña.value = "";
+    obtenerContraseña.value = "";
   }else if (cuenta === 0){
       alert ("Agotaste tus intentos de ingreso");
 
@@ -18,15 +18,23 @@ botonInicio.addEventListener("click",() =>
       document.getElementById("pantalla2.2").classList.add("ocultar");
       document.getElementById("pantalla2.1").classList.add("ocultar");
       document.getElementById("pantalla1").classList.add("ocultar");
-      contraseña.value = "";
+      obtenerContraseña.value = "";
     }else{
       alert("Vuelve a intentarlo");
-      contraseña.value = "";
+      obtenerContraseña.value = "";
       cuenta --;
     }
 
 } );
 
+//Función ENTER:
+let enterIniciar = document.getElementById("contraseña");
+enterIniciar.addEventListener("keyup", (event) => {
+  if (event.keyCode === 13) {
+    event.preventDefault();
+    document.getElementById("botonInicio").click();
+  }
+});
 
 /*SEGUNDA PANTALLA:*/
 /*Elección de opciones:*/
@@ -49,23 +57,8 @@ eleccionOpcion2.addEventListener("click",() =>
 } );
 
 
-//Restricción de ingreso de sólo números en el input de Ofset
-function soloNumeros(e){
-  key=e.keyCode || e.which;
-  teclado=String.fromCharCode(key);
-  let numeros="0123456789";
-  let especiales="8-37-38-46";//array
-  let teclado_especial=false;
 
-  for( let i in especiales){
-    if (key==especiales[i]){
-      teclado_especial=true;
-    }
-  }
-    if(numeros.indexOf(teclado)==-1 && !teclado_especial){
-      return false;
-    }
-}
+
 //BOTONES RESET:
 // Función botón RESET1:
 const clickReset1 = document.getElementById("bReset1");
@@ -134,7 +127,7 @@ eleccionRegresar.addEventListener("click",() =>
   clickEncriptar.addEventListener("click", () =>  {
       let textoEncriptado = document.getElementById("textArea1_1").value;
       let numOffset = document.getElementById("offset").value;
-      document.getElementById("textArea1_2").innerHTML = cipher.encode(numOffset, textoEncriptado);
+      document.getElementById("textArea1_2").value = cipher.encode(numOffset, textoEncriptado);
   });
 
 //DESENCRIPTANDO:
@@ -143,5 +136,5 @@ eleccionRegresar.addEventListener("click",() =>
   clickDesencriptar.addEventListener("click",() => {
       let textoDesencriptado = document.getElementById("textArea2_1").value;
       let numOffset2 = document.getElementById("offset2").value;
-      document.getElementById("textArea2_2").innerHTML = cipher.decode(numOffset2, textoDesencriptado);
+      document.getElementById("textArea2_2").value = cipher.decode(numOffset2, textoDesencriptado);
   });
