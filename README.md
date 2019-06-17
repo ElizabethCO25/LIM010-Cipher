@@ -77,14 +77,13 @@ En tal sentido, *El encriptador César* soluciona dichos problemas ofreciendoles
 
 
 ### Feedback
-En mi primer feedback mis coaches me recomendaron , de preferencia, usar sólo botones y no listas desplegables o combo box; ello para agilizar el desarrollo de mi proyecto y no distraer mi aprendizaje.
+- En mi primer feedback mi coach me recomendó , de preferencia, usar sólo botones y no listas desplegables o combo box; ello para agilizar el desarrollo de mi proyecto y no distraer mi aprendizaje.
+- Respecto a la funcionalidad y diseño, me sugirió agregar un botón de "Reset" a mis pantallas de ejecución (Encriptar - Desencriptar) y un botón de "Regresar" a mi pantalla de despedida, por si el usuario decidía volver a utilizar el encriptador.
 
-Respecto a la funcionalidad y diseño, tuve su aceptación.
 
+### Prototipo final en Balsamiq <div id='id7' />
 
-### Prototipo final en Balsamiq<div id='id7' />
-
-### **Imágenes de mi 1º Prototipo**<div id='id8' />
+### **Imágenes de mi 1º Prototipo** <div id='id8' />
 
 #### Pantalla 1:
 ![Pantalla 1](https://user-images.githubusercontent.com/51203238/58842676-f8acb400-8634-11e9-9469-e732228068ca.png)
