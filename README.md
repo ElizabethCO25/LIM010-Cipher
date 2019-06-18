@@ -43,7 +43,7 @@ El *encriptador César* sirve para codificar información sensible de cuentas y 
 ### Pantalla 3 - "De despedida":
 ![PF 5](https://user-images.githubusercontent.com/51203238/59619093-4f16f980-90ef-11e9-9b0e-b470cf08b57c.PNG)
 
-### Pantalla 4 - "De bloqueo por intentos errados de ingreso":
+### Pantalla 4 - "De bloqueo por intentos de ingreso errados":
 ![PF 6](https://user-images.githubusercontent.com/51203238/59619155-7a99e400-90ef-11e9-9b3c-d3f34f339229.PNG)
 
 
