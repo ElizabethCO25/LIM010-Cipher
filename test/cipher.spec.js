@@ -22,6 +22,10 @@ describe('cipher', () => {
       assert.equal(cipher.encode(33, "0123456789"), "3456789012");
     });
 
+    it('debería retornar "2345678901" para "0123456789" con offset 30', () => {
+      assert.equal(cipher.encode(30, "0123456789"), "2345678901");
+    });
+
     it('debería retornar "$" para "!" con offset 33', () => {
       assert.equal(cipher.encode(33, "!"), "$");
     });
@@ -56,6 +60,10 @@ describe('cipher', () => {
 
     it('debería retornar "0123456789" para "3456789012" con offset 33', () => {
       assert.equal(cipher.decode(33, "3456789012"), "0123456789");
+    });
+
+    it('debería retornar "0123456789" para "2345678901" con offset 30', () => {
+      assert.equal(cipher.decode(30, "2345678901"), "0123456789");
     });
 
     it('debería retornar "!" para "$" con offset 33', () => {
